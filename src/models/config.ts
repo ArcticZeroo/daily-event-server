@@ -6,7 +6,7 @@ const ajv = new Ajv({
     useDefaults:      true,
 });
 
-export interface ICustomDaySetting {
+export interface ICustomEventDaySetting {
     name: string;
     day: number;
     month: number;
@@ -15,13 +15,13 @@ export interface ICustomDaySetting {
 
 export interface IConfigSettings {
     enableNationalDayCalendar: boolean;
-    birthdays: ICustomDaySetting[];
-    importantDays: ICustomDaySetting[];
+    birthdays: ICustomEventDaySetting[];
+    importantDays: ICustomEventDaySetting[];
     iCalSources: string[];
     upcomingDaysCount: number;
 }
 
-const customDaySettingSchema: JSONSchemaType<ICustomDaySetting> = {
+const customDaySettingSchema: JSONSchemaType<ICustomEventDaySetting> = {
     type:                 'object',
     properties:           {
         name:  { type: 'string' },
