@@ -1,8 +1,8 @@
 import { IConfigSettings, ICustomEventDaySetting } from '../models/config.js';
 import { EventType, IConfigExecutionResult, IEvent } from '../models/event.js';
-import { retrieveNationalDayEvents } from './providers/national-day.js';
 import { isObservedOnDate, toOccursOnString } from '../util/date.js';
 import { possessive } from '../util/string.js';
+import { retrieveNationalDayEvents } from './providers/national-day/provider.js';
 
 const getObservedEvents = (events: ICustomEventDaySetting[], date: Date) => events.filter(event => isObservedOnDate(event, date));
 

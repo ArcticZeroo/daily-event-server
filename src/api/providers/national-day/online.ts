@@ -1,7 +1,7 @@
-import { monthNames, toOccursOnString } from '../../util/date.js';
+import { monthNames, toOccursOnString } from '../../../util/date.js';
 import puppeteer from 'puppeteer';
-import { EventType, IEvent } from '../../models/event.js';
-import { capitalize } from '../../util/string.js';
+import { EventType, IEvent } from '../../../models/event.js';
+import { capitalize } from '../../../util/string.js';
 import * as fs from 'node:fs';
 import fetch from 'node-fetch';
 import jsdom from 'jsdom';
@@ -56,7 +56,7 @@ const nationalDayCalendarProvider = async (date: Date): Promise<Array<IEvent>> =
 
 const daysOfTheYearMonthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sept', 'oct', 'nov', 'dec'];
 
-const daysOfTheYearProvider = async (date: Date): Promise<Array<IEvent>> => {
+export const onlineDaysOfTheYearProvider = async (date: Date): Promise<Array<IEvent>> => {
     const monthName = daysOfTheYearMonthNames[date.getMonth()];
     const url = `https://www.daysoftheyear.com/days/${monthName}/${date.getDate()}/`;
 
@@ -87,5 +87,3 @@ const daysOfTheYearProvider = async (date: Date): Promise<Array<IEvent>> => {
         type: EventType.Daily,
     }));
 }
-
-export const retrieveNationalDayEvents = async (date: Date): Promise<Array<IEvent>> => daysOfTheYearProvider(date);
