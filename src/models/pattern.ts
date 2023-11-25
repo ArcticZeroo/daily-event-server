@@ -118,26 +118,27 @@ export const nativeDayOfWeekFromRepeatDayOfWeek = (repeatDayOfWeek: RepeatDayOfW
 	[RepeatDayOfWeek.saturday]:  NATIVE_DAYS_OF_WEEK.saturday
 }[repeatDayOfWeek]);
 
-export interface IAbsolutePattern {
+interface IAbsolutePattern {
 	type: RepeatPatternType.absolute,
 	day: number; // 1-31
 	month: RepeatMonth;
 }
 
-export interface IRelativePattern {
+interface IRelativePattern {
 	type: RepeatPatternType.relative,
 	dayOfWeek: RepeatDayOfWeek;
 	order: RelativeOrder;
 	month: RepeatMonth;
 }
 
-export interface IFloatingPattern {
+interface IFloatingPattern {
 	type: RepeatPatternType.floating;
+	calculateDates?: (year: number, resolveDatesForPattern: (pattern: RepeatPattern) => Date[]) => Date[];
 }
 
 export type RepeatPattern = IAbsolutePattern | IRelativePattern | IFloatingPattern;
 
-export interface IAbsoluteOffsetPattern {
+interface IAbsoluteOffsetPattern {
 	type: RepeatPatternType.absolute;
 	days: number;
 }
@@ -147,7 +148,7 @@ export enum RelativeOffsetDirection {
 	previous
 }
 
-export interface IRelativeOffsetPattern {
+interface IRelativeOffsetPattern {
 	type: RepeatPatternType.relative;
 	direction: RelativeOffsetDirection;
 	dayOfWeek: RepeatDayOfWeek;
@@ -157,11 +158,12 @@ export type OffsetPattern = IAbsoluteOffsetPattern | IRelativeOffsetPattern;
 
 export interface IOffsetData {
 	name: string;
-	pattern: OffsetPattern;
+	// When pattern is not set, the child occurs on the same day
+	pattern?: OffsetPattern;
 }
 
 export interface IRepeatData {
-	name: string;
+	name?: string;
 	pattern: RepeatPattern;
 	children?: Array<IOffsetData>;
 }

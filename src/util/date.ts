@@ -54,3 +54,18 @@ export const isObservedOnDate = (customEvent: ICustomEventDaySetting, date: Date
 }
 
 export const toOccursOnString = (date: Date): `${number}-${number}-${number}` => `${date.getMonth() + 1}-${date.getDate()}-${date.getFullYear()}`;
+
+export const isOnWeekend = (date: Date) => {
+    const dayOfWeek = date.getDay();
+    return dayOfWeek === NATIVE_DAYS_OF_WEEK.saturday || dayOfWeek === NATIVE_DAYS_OF_WEEK.sunday;
+}
+
+export const allDaysBetween = (a: Date, b: Date) => {
+    const dates = [];
+    let current = new Date(a.getTime());
+    while (current.getTime() <= b.getTime()) {
+        dates.push(new Date(current.getTime()));
+        current.setDate(current.getDate() + 1);
+    }
+    return dates;
+}

@@ -1,6 +1,14 @@
-import { RelativeOrder, RepeatDayOfWeek, RepeatMonth, RepeatPatternType } from '../../../models/pattern.js';
+import {
+	IRepeatData,
+	RelativeOffsetDirection,
+	RelativeOrder,
+	RepeatDayOfWeek,
+	RepeatMonth,
+	RepeatPatternType
+} from '../../../models/pattern.js';
+import { allDaysBetween, NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS } from '../../../util/date.js';
 
-export const decemberEvents = [
+export const decemberEvents: IRepeatData[] = [
 	{ name: `National Pie Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 1 } },
 	{ name: `Antarctica Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 1 } },
 	{
@@ -124,7 +132,32 @@ export const decemberEvents = [
 		name:    `National Illinois Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 7 }
 	},
-	{ name: `Hanukkah`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } }, // Moon calendar
+	{
+		name:    `Hanukkah`,
+		pattern: {
+			type:           RepeatPatternType.floating,
+			calculateDates: (year) => {
+				// For now, let's just use a table rather than pull in moon/hebrew calendar info.
+				const dateRanges: Array<[Date, Date]> = [
+					[new Date(2023, NATIVE_MONTHS.december, 7), new Date(2023, NATIVE_MONTHS.december, 15)],
+					[new Date(2024, NATIVE_MONTHS.december, 25), new Date(2025, NATIVE_MONTHS.january, 2)],
+					[new Date(2025, NATIVE_MONTHS.december, 14), new Date(2025, NATIVE_MONTHS.december, 22)],
+					[new Date(2026, NATIVE_MONTHS.december, 4), new Date(2026, NATIVE_MONTHS.december, 12)],
+					[new Date(2027, NATIVE_MONTHS.december, 24), new Date(2028, NATIVE_MONTHS.january, 1)],
+				];
+
+				const dates: Date[] = [];
+
+				for (const [startRange, endRange] of dateRanges) {
+					if (startRange.getFullYear() === year || endRange.getFullYear() === year) {
+						dates.push(...allDaysBetween(startRange, endRange));
+					}
+				}
+
+				return dates;
+			}
+		}
+	}, // Moon calendar
 	{
 		name:    `International Civil Aviation Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 7 }
@@ -234,7 +267,7 @@ export const decemberEvents = [
 		name:    `Pick A Pathologist Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 13 }
 	},
-	{ name: `Asarah B'tevet`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } },
+	// { name: `Asarah B'tevet`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } },
 	{
 		name:    `Martyred Intellectuals Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 14 }
@@ -280,10 +313,10 @@ export const decemberEvents = [
 	},
 	{ name: `Cat Herders Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 15 } },
 	{ name: `Bill Of Rights Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 15 } },
-	{
+	/*{
 		name:    `National Wreaths Across America Day`,
 		pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december }
-	},
+	},*/
 	{
 		name:    `National Chocolate-Covered Anything Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 16 }
@@ -336,33 +369,71 @@ export const decemberEvents = [
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 20 }
 	},
 	{ name: `National Maine Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 21 } },
-	{ name: `National Flashlight Day`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } }, // Winter solstice
 	{
 		name:    `National French Fried Shrimp Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 21 }
 	},
-	{ name: `Anne & Samantha Day`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } }, // Winter solstice
-	{ name: `Yule`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } }, // Winter solstice
-	{ name: `Winter Solstice`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } }, // Winter solstice
+	{
+		name:     `Winter Solstice`,
+		pattern:  {
+			type:           RepeatPatternType.floating,
+			calculateDates: (year) => {
+				const daysByYear: Record<number, number> = {
+					2023: 22,
+					2024: 21,
+					2025: 21,
+					2026: 21,
+					2027: 22,
+					2028: 21
+				};
+				const day = daysByYear[year];
+				return [new Date(year, NATIVE_MONTHS.december, day)];
+			}
+		},
+		children: [
+
+			{ name: `National Flashlight Day` }, // Winter solstice
+			{ name: `Anne & Samantha Day` }, // Winter solstice
+			{ name: `Yule` }, // Winter solstice
+			{
+				name:    `National Homeless Persons' Remembrance Day`,
+				pattern: { type: RepeatPatternType.absolute, days: 1 }
+			},
+			{
+				name:    'First Day of Winter',
+				pattern: { type: RepeatPatternType.absolute, days: 1 }
+			}
+		]
+	},
 	{
 		name:    `Phileas Fogg Win A Wager Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 21 }
 	},
-	{
-		name:    `National Homeless Persons' Remembrance Day`,
-		pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december }
-	}, // First day of winter (day after solstice?)
 	{ name: `Humbug Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 21 } },
 	{
 		name:    `Crossword Puzzle Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 21 }
 	},
-	{ name: `National Re-Gifting Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.december } },
 	{
 		name:    `National Date Nut Bread Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 22 }
 	},
-	{ name: `Forefathers' Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.december } },
+	{
+		name:    `Forefathers' Day`,
+		pattern: {
+			type: RepeatPatternType.floating,
+			calculateDates: (year, resolveDatesForPattern) => {
+				const baseDate = new Date(year, NATIVE_MONTHS.december, 22);
+
+				// If on sunday, occurs on "following monday"
+				if (baseDate.getDay() === NATIVE_DAYS_OF_WEEK.sunday) {
+					return [new Date(year, NATIVE_MONTHS.december, 23)];
+				}
+
+				return [baseDate];
+			}
+		}
+	},
 	{ name: `National Roots Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 23 } },
 	{
 		name:    `National Pfeffernusse Day`,
@@ -378,7 +449,24 @@ export const decemberEvents = [
 		name:    `National Pumpkin Pie Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 25 }
 	},
-	{ name: `Christmas Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 25 } },
+	{
+		name:     `Christmas Day`,
+		pattern:  {
+			type:  RepeatPatternType.absolute,
+			month: RepeatMonth.december,
+			day:   25
+		},
+		children: [
+			{
+				name:    `National Re-Gifting Day`,
+				pattern: {
+					type:      RepeatPatternType.relative,
+					direction: RelativeOffsetDirection.previous,
+					dayOfWeek: RepeatDayOfWeek.thursday
+				}
+			},
+		]
+	},
 	{
 		name:    `"A'phabet Day Or No ""l"" Day"`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 25 }
@@ -421,7 +509,10 @@ export const decemberEvents = [
 		name:    `National Pepper Pot Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 29 }
 	},
-	{ name: `No Interruptions Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.december } },
+	{
+		name: `No Interruptions Day`,
+		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 31 }
+	}, // Technically "the last work day of the year", but that feels nebulous.
 	{ name: `Tick Tock Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.december, day: 29 } },
 	{
 		name:    `National Bicarbonate Of Soda Day`,

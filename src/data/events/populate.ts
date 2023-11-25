@@ -1,13 +1,17 @@
 import {
 	ALL_REPEAT_MONTHS,
 	IOffsetData,
-	IRepeatData, nativeDayOfWeekFromRepeatDayOfWeek, nativeMonthFromRepeatMonth, RelativeOffsetDirection,
+	IRepeatData,
+	nativeDayOfWeekFromRepeatDayOfWeek,
+	nativeMonthFromRepeatMonth,
+	RelativeOffsetDirection,
 	RelativeOrder,
 	RelativeOrderDatesByWeekday,
 	relativeOrderFromOccurrence,
 	repeatDayOfWeekFromNativeDayOfWeek,
 	RepeatMonth,
 	repeatMonthFromNativeMonth,
+	RepeatPattern,
 	RepeatPatternType
 } from '../../models/pattern.js';
 import { NativeDayOfWeek, NativeMonth, toOccursOnString } from '../../util/date.js';
@@ -55,33 +59,33 @@ const resolveMonthsFromPatternMonth = (patternMonth: RepeatMonth): Array<RepeatM
 	}
 }
 
-const resolveBaseEventDatesFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, RelativeOrderDatesByWeekday>, year: number, repeatData: IRepeatData): Array<Date> => {
-	if (repeatData.pattern.type === RepeatPatternType.absolute) {
+const resolveBaseEventDatesFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, RelativeOrderDatesByWeekday>, year: number, repeatPattern: RepeatPattern): Array<Date> => {
+	if (repeatPattern.type === RepeatPatternType.absolute) {
 		const dates: Date[] = [];
 
-		for (const repeatMonth of resolveMonthsFromPatternMonth(repeatData.pattern.month)) {
-			dates.push(new Date(year, nativeMonthFromRepeatMonth(repeatMonth), repeatData.pattern.day));
+		for (const repeatMonth of resolveMonthsFromPatternMonth(repeatPattern.month)) {
+			dates.push(new Date(year, nativeMonthFromRepeatMonth(repeatMonth), repeatPattern.day));
 		}
 
 		return dates;
 
-	} else if (repeatData.pattern.type === RepeatPatternType.relative) {
+	} else if (repeatPattern.type === RepeatPatternType.relative) {
 		const dates: Date[] = [];
 
-		for (const repeatMonth of resolveMonthsFromPatternMonth(repeatData.pattern.month)) {
+		for (const repeatMonth of resolveMonthsFromPatternMonth(repeatPattern.month)) {
 			const relativeOrderDatesByWeekday = relativeOrdersByMonth.get(repeatMonth);
 
 			if (relativeOrderDatesByWeekday == null) {
-				throw new Error(`No relative order dates found for month ${repeatData.pattern.month}`);
+				throw new Error(`No relative order dates found for month ${repeatPattern.month}`);
 			}
 
-			const relativeOrderDates = relativeOrderDatesByWeekday.get(repeatData.pattern.dayOfWeek);
+			const relativeOrderDates = relativeOrderDatesByWeekday.get(repeatPattern.dayOfWeek);
 
 			if (relativeOrderDates == null) {
-				throw new Error(`No relative order dates found for day of week ${repeatData.pattern.dayOfWeek}`);
+				throw new Error(`No relative order dates found for day of week ${repeatPattern.dayOfWeek}`);
 			}
 
-			const dayOfMonth = relativeOrderDates.get(repeatData.pattern.order);
+			const dayOfMonth = relativeOrderDates.get(repeatPattern.order);
 
 			if (dayOfMonth == null) {
 				continue;
@@ -91,12 +95,21 @@ const resolveBaseEventDatesFromRepeatData = (relativeOrdersByMonth: Map<RepeatMo
 		}
 
 		return dates;
-	} else {
-		return [];
+	} else if (repeatPattern.type === RepeatPatternType.floating) {
+		return repeatPattern.calculateDates?.(
+			year,
+			(pattern) => resolveBaseEventDatesFromRepeatData(relativeOrdersByMonth, year, pattern)
+		) ?? [];
 	}
+
+	return [];
 }
 
 const resolveChildEventDateFromOffsetPattern = (baseDate: Date, offsetData: IOffsetData): Date | null => {
+	if (offsetData.pattern == null) {
+		return baseDate;
+	}
+
 	if (offsetData.pattern.type === RepeatPatternType.absolute) {
 		const date = new Date(baseDate);
 		date.setDate(date.getDate() + offsetData.pattern.days);
@@ -114,7 +127,7 @@ const resolveChildEventDateFromOffsetPattern = (baseDate: Date, offsetData: IOff
 }
 
 const resolveEventsFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, RelativeOrderDatesByWeekday>, year: number, repeatData: IRepeatData): Array<[Date, string]> => {
-	const baseDates = resolveBaseEventDatesFromRepeatData(relativeOrdersByMonth, year, repeatData);
+	const baseDates = resolveBaseEventDatesFromRepeatData(relativeOrdersByMonth, year, repeatData.pattern);
 
 	if (baseDates.length === 0) {
 		return [];
@@ -123,7 +136,10 @@ const resolveEventsFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, Rel
 	const eventNames: Array<[Date, string]> = [];
 
 	for (const baseDate of baseDates) {
-		eventNames.push([baseDate, repeatData.name]);
+		// Name can be null if the RepeatData is being used only as a base for offset children
+		if (repeatData.name != null) {
+			eventNames.push([baseDate, repeatData.name]);
+		}
 
 		for (const child of repeatData.children ?? []) {
 			const childDate = resolveChildEventDateFromOffsetPattern(baseDate, child);

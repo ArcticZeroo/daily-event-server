@@ -564,15 +564,23 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.february, day: 27 }
 	},
 	// { name: `National Pancake Day`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.february } },
-	/*{
-		name:    `Rare Disease Day USA`,
-		pattern: {
-			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
-			order:     RelativeOrder.last,
-			dayOfWeek: RepeatDayOfWeek.any
-		}
-	},*/
+	{
+		pattern:  {
+			type:  RepeatPatternType.absolute,
+			month: RepeatMonth.march,
+			day:   1,
+		},
+		children: [
+			// Last day of February. Kinda a hack, but easier than trying to figure out the last day of February.
+			{
+				name:    `Rare Disease Day USA`,
+				pattern: {
+					type: RepeatPatternType.absolute,
+					days: -1
+				}
+			}
+		]
+	},
 	{
 		name:    `National Chocolate Souffle Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.february, day: 28 }

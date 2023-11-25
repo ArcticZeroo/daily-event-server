@@ -26,5 +26,5 @@ export const combinedEvents: IRepeatData[] = [
 	// ...septemberEvents,
 	// ...octoberEvents,
 	...novemberEvents,
-	// ...decemberEvents
+	...decemberEvents
 ];
