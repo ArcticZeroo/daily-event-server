@@ -17,7 +17,7 @@ export const combinedEvents: IRepeatData[] = [
 	...everyMonthEvents,
 	...januaryEvents,
 	...februaryEvents,
-	// ...marchEvents,
+	...marchEvents,
 	// ...aprilEvents,
 	// ...mayEvents,
 	// ...juneEvents,

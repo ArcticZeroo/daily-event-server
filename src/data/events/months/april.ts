@@ -1,7 +1,7 @@
-import { RepeatMonth, RepeatPatternType } from '../../../models/pattern.js';
+import { IRepeatData, RepeatMonth, RepeatPatternType } from '../../../models/pattern.js';
 
-export const aprilEvents = [
-	{ name: `National Pickleball Month`, pattern: { type: RepeatPatternType.relative } },
+export const aprilEvents: IRepeatData[] = [
+	// { name: `National Pickleball Month`, pattern: { type: RepeatPatternType.relative } }, - Clearly not a day?
 	{ name: `National Handmade Day`, pattern: { type: RepeatPatternType.relative } },
 	{ name: `National Love Our Children Day`, pattern: { type: RepeatPatternType.relative } },
 	{

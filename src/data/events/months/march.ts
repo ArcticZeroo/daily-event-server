@@ -44,7 +44,7 @@ export const marchEvents: IRepeatData[] = [
 	{
 		name:    `National Read Across America Day (dr. Seuss Day)`,
 		pattern: {
-			type:          RepeatPatternType.floating,
+			type:           RepeatPatternType.floating,
 			calculateDates: (year) => {
 				const baseDate = new Date(year, NATIVE_MONTHS.march, 2);
 				const weekday = baseDate.getDay();
@@ -87,7 +87,7 @@ export const marchEvents: IRepeatData[] = [
 	{ name: `World Wildlife Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 3 } },
 	{
 		name:    `National Employee Appreciation Day`,
-		pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march }
+		pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.first, dayOfWeek: RepeatDayOfWeek.friday }
 	},
 	{
 		name:    `Global Day Of Unplugging`,
@@ -183,7 +183,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 10 }
 	},
 	{
-		name:    `National Women And Girls Hiv/aids Awareness Day`,
+		name:    `National Women And Girls HIV/AIDS Awareness Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 10 }
 	},
 	{
@@ -216,12 +216,29 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Johnny Appleseed Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 11 }
 	},
-	{ name: `National I Am Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{ name: `National I Am Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.second, dayOfWeek: RepeatDayOfWeek.sunday } },
 	{
 		name:    `National Working Moms Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 12 }
 	},
-	{ name: `Daylight Saving Time`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:     `Daylight Saving Time`,
+		pattern:  {
+			type:      RepeatPatternType.relative,
+			month:     RepeatMonth.march,
+			order:     RelativeOrder.second,
+			dayOfWeek: RepeatDayOfWeek.sunday
+		},
+		children: [
+			{
+				name:    `National Napping Day`,
+				pattern: {
+					type: RepeatPatternType.absolute,
+					days: 1
+				}
+			},
+		]
+	},
 	{
 		name:    `National Baked Scallops Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 12 }
@@ -252,12 +269,11 @@ export const marchEvents: IRepeatData[] = [
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 13 }
 	},
 	{ name: `National Earmuff Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 13 } },
-	{ name: `National Napping Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
 	{
 		name:    `National Write Down Your Story Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 14 }
 	},
-	{ name: `National Equal Pay Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	// { name: `National Equal Pay Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
 	{
 		name:    `National Children’s Craft Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 14 }
@@ -271,7 +287,7 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Potato Chip Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 14 }
 	},
-	{ name: `National Sbdc Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{ name: `National SBDC Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.wednesday } },
 	{ name: `National Kansas Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 15 } },
 	{
 		name:    `Everything You Think Is Wrong Day`,
@@ -285,14 +301,14 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Shoe The World Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 15 }
 	},
-	{ name: `National Spray Tanning Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
-	{ name: `Absolutely Incredible Kids Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{ name: `National Spray Tanning Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.thursday } },
+	{ name: `Absolutely Incredible Kids Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.thursday } },
 	{
 		name:    `National Curl Crush Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 16 }
 	},
 	{ name: `National Panda Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 16 } },
-	{ name: `National Farm Rescuer Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{ name: `National Farm Rescuer Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.thursday } },
 	{
 		name:    `National Artichoke Hearts Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 16 }
@@ -305,13 +321,13 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Freedom Of Information Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 16 }
 	},
-	{ name: `World Sleep Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	// { name: `World Sleep Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } }, // Friday before spring equinox
 	{ name: `St. Patrick's Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 17 } },
 	{
 		name:    `National Corned Beef And Cabbage Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 17 }
 	},
-	{ name: `National Corn Dog Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	// { name: `National Corn Dog Day`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.march } },
 	{
 		name:    `National Biodiesel Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 18 }
@@ -332,7 +348,7 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Supreme Sacrifice Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 18 }
 	},
-	{ name: `National Quilting Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{ name: `National Quilting Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.saturday } },
 	{ name: `National Backyard Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 19 } },
 	{
 		name:    `National Certified Nurses Day`,
@@ -349,14 +365,32 @@ export const marchEvents: IRepeatData[] = [
 	{ name: `National Poultry Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 19 } },
 	{ name: `World Flour Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 20 } },
 	{ name: `National Proposal Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 20 } },
-	{ name: `Spring Begins`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:     `Spring Begins`,
+		pattern:  {
+			type:  RepeatPatternType.absolute,
+			month: RepeatMonth.march,
+			// Ok, this isn't actually always true. But at least through 2028 it is true.
+			day: 20
+		},
+		children: [
+			{
+				name:    `World Sleep Day`,
+				pattern: {
+					type: RepeatPatternType.absolute,
+					days: -1
+				}
+			},
+		]
+	},
 	{
 		name:    `National Native Hiv/aids Awareness Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 20 }
 	},
 	{ name: `National Ravioli Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 20 } },
 	{ name: `National Memory Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 21 } },
-	{ name: `National 3`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	// 3rd day of 3rd week in March, which is actually just 3rd Tuesday.
+	{ name: `National 3-D Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march, order: RelativeOrder.third, dayOfWeek: RepeatDayOfWeek.tuesday } },
 	{
 		name:    `National Countdown Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 21 }
@@ -365,7 +399,7 @@ export const marchEvents: IRepeatData[] = [
 		name:    `World Down Syndrome Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 21 }
 	},
-	{ name: `National Ag Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	// { name: `National Ag Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
 	{
 		name:    `National French Bread Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 21 }
@@ -429,7 +463,14 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Lobster Newburg Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 25 }
 	},
-	{ name: `Epilepsy Awareness Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:    `Epilepsy Awareness Day - Purple Day`,
+		pattern: {
+			type:  RepeatPatternType.absolute,
+			month: RepeatMonth.march,
+			day:   26
+		}
+	},
 	{ name: `National Nougat Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 26 } },
 	{ name: `National Spinach Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 26 } },
 	{
@@ -461,15 +502,35 @@ export const marchEvents: IRepeatData[] = [
 	},
 	{
 		name:    `American Diabetes Association Alert Day`,
-		pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march }
+		pattern: {
+			type:      RepeatPatternType.relative,
+			month:     RepeatMonth.march,
+			order:     RelativeOrder.fourth,
+			dayOfWeek: RepeatDayOfWeek.tuesday
+		}
 	},
-	{ name: `National Pita Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:    `National Pita Day`,
+		pattern: {
+			type:  RepeatPatternType.absolute,
+			month: RepeatMonth.march,
+			day:   29
+		}
+	},
 	{ name: `National Nevada Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 29 } },
 	{
 		name:    `National Vietnam War Veterans Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 29 }
 	},
-	{ name: `National Little Red Wagon Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:    `National Little Red Wagon Day`,
+		pattern: {
+			type:      RepeatPatternType.relative,
+			month:     RepeatMonth.march,
+			order:     RelativeOrder.last,
+			dayOfWeek: RepeatDayOfWeek.wednesday
+		}
+	},
 	{
 		name:    `National Lemon Chiffon Cake Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 29 }
@@ -478,7 +539,15 @@ export const marchEvents: IRepeatData[] = [
 		name:    `National Mom And Pop Business Owners Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 29 }
 	},
-	{ name: `Manatee Appreciation Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
+	{
+		name:    `Manatee Appreciation Day`,
+		pattern: {
+			type:  RepeatPatternType.relative,
+			month: RepeatMonth.march,
+			order: RelativeOrder.last,
+			dayOfWeek: RepeatDayOfWeek.wednesday
+		}
+	},
 	{
 		name:    `National Virtual Vacation Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 30 }
@@ -500,10 +569,7 @@ export const marchEvents: IRepeatData[] = [
 	},
 	{ name: `National Crayon Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 31 } },
 	{ name: `National Prom Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 31 } },
-	{
-		name:    `Take Down Tobacco National Day Of Action`,
-		pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march }
-	},
+	// { name:    `Take Down Tobacco National Day Of Action`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.march } },
 	{
 		name:    `National Clams On The Half Shell Day`,
 		pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.march, day: 31 }
