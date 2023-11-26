@@ -1,5 +1,7 @@
 import { populateCalendarForYear } from '../../../data/events/populate.js';
-import { EventType, IEvent } from '../../../models/event.js';
+import {
+	EventType, IEvent 
+} from '../../../models/event.js';
 import { EventNamesByOccurrenceString } from '../../../models/pattern.js';
 import { toOccursOnString } from '../../../util/date.js';
 
@@ -28,4 +30,4 @@ export const localDaysOfTheYearProvider = async (date: Date): Promise<Array<IEve
 		occursOn: toOccursOnString(date),
 		type: EventType.Daily
 	}));
-}
+};

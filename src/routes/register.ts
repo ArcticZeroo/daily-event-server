@@ -3,10 +3,10 @@ import { registerApiRoutes } from './api/routes.js';
 import Koa from 'koa';
 
 export const registerRoutes = (app: Koa) => {
-    const router = new Router();
+	const router = new Router();
 
-    registerApiRoutes(router);
+	registerApiRoutes(router);
 
-    app.use(router.routes())
-        .use(router.allowedMethods());
+	app.use(router.routes())
+		.use(router.allowedMethods());
 };

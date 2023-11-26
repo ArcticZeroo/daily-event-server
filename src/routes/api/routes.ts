@@ -3,11 +3,9 @@ import { registerConfigRoutes } from './config.js';
 import { attachRouter } from '../../util/koa.js';
 
 export const registerApiRoutes = (parent: Router) => {
-    const router = new Router({
-        prefix: '/api'
-    });
+	const router = new Router({prefix: '/api'});
 
-    registerConfigRoutes(router);
+	registerConfigRoutes(router);
 
-    attachRouter(parent, router);
+	attachRouter(parent, router);
 };

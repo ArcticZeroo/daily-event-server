@@ -14,7 +14,9 @@ import {
 	RepeatPattern,
 	RepeatPatternType
 } from '../../models/pattern.js';
-import { NativeDayOfWeek, NativeMonth, toOccursOnString } from '../../util/date.js';
+import {
+	NativeDayOfWeek, NativeMonth, toOccursOnString 
+} from '../../util/date.js';
 import { combinedEvents } from './combined.js';
 
 const populateRelativeOrdersForYear = (year: number) => {
@@ -57,7 +59,7 @@ const resolveMonthsFromPatternMonth = (patternMonth: RepeatMonth): Array<RepeatM
 	} else {
 		return [patternMonth];
 	}
-}
+};
 
 const resolveBaseEventDatesFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, RelativeOrderDatesByWeekday>, year: number, repeatPattern: RepeatPattern): Array<Date> => {
 	if (repeatPattern.type === RepeatPatternType.absolute) {
@@ -103,7 +105,7 @@ const resolveBaseEventDatesFromRepeatData = (relativeOrdersByMonth: Map<RepeatMo
 	}
 
 	return [];
-}
+};
 
 const resolveChildEventDateFromOffsetPattern = (baseDate: Date, offsetData: IOffsetData): Date | null => {
 	if (offsetData.pattern == null) {
@@ -124,7 +126,7 @@ const resolveChildEventDateFromOffsetPattern = (baseDate: Date, offsetData: IOff
 	} else {
 		return null;
 	}
-}
+};
 
 const resolveEventsFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, RelativeOrderDatesByWeekday>, year: number, repeatData: IRepeatData): Array<[Date, string]> => {
 	const baseDates = resolveBaseEventDatesFromRepeatData(relativeOrdersByMonth, year, repeatData.pattern);
@@ -138,7 +140,10 @@ const resolveEventsFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, Rel
 	for (const baseDate of baseDates) {
 		// Name can be null if the RepeatData is being used only as a base for offset children
 		if (repeatData.name != null) {
-			eventNames.push([baseDate, repeatData.name]);
+			eventNames.push([
+				baseDate,
+				repeatData.name
+			]);
 		}
 
 		for (const child of repeatData.children ?? []) {
@@ -148,7 +153,10 @@ const resolveEventsFromRepeatData = (relativeOrdersByMonth: Map<RepeatMonth, Rel
 				continue;
 			}
 
-			eventNames.push([childDate, child.name]);
+			eventNames.push([
+				childDate,
+				child.name
+			]);
 		}
 	}
 

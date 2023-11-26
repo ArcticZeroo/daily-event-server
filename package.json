@@ -25,11 +25,15 @@
     "puppeteer": "^21.4.0"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.4.1",
     "@types/jsdom": "^21.1.4",
     "@types/koa": "^2.13.10",
     "@types/koa__router": "^12.0.2",
     "@types/koa-bodyparser": "^4.3.11",
     "@types/node": "^20.8.7",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
     "typescript": "^5.2.2",
     "undici": "^5.26.4"
   }
