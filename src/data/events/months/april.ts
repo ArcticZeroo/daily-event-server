@@ -1,5 +1,5 @@
 import {
-	IRepeatData, RepeatMonth, RepeatPatternType 
+	IRepeatData, RepeatPatternType
 } from '../../../models/pattern.js';
 
 export const aprilEvents: IRepeatData[] = [
@@ -16,7 +16,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Sourdough Bread Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 1 
 		}
 	},
@@ -24,7 +24,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National One Cent Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 1 
 		} 
 	},
@@ -32,7 +32,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `April Fools' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 1 
 		} 
 	},
@@ -40,14 +40,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Geologists Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `World Autism Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 2 
 		}
 	},
@@ -55,14 +55,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Education And Sharing Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name: `National Ferret Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 2 
 		} 
 	},
@@ -70,7 +70,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Peanut Butter And Jelly Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 2 
 		}
 	},
@@ -78,7 +78,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Reconciliation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 2 
 		}
 	},
@@ -86,14 +86,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Iep Writing Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Film Score Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 3 
 		}
 	},
@@ -101,7 +101,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `World Party Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 3 
 		} 
 	},
@@ -109,7 +109,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Find A Rainbow Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 3 
 		}
 	},
@@ -117,7 +117,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Chocolate Mousse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 3 
 		}
 	},
@@ -125,7 +125,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Tweed Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 3 
 		} 
 	},
@@ -133,7 +133,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `World Corporate Health Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		}
 	},
@@ -141,7 +141,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Vitamin C Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		} 
 	},
@@ -149,7 +149,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Jeep 4x4 Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		} 
 	},
@@ -157,14 +157,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Saam Day Of Action`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Chicken Cordon Bleu Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		}
 	},
@@ -172,7 +172,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National School Librarian Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		}
 	},
@@ -180,7 +180,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Hug A Newsperson Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		}
 	},
@@ -188,7 +188,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Walk Around Things Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 4 
 		}
 	},
@@ -196,14 +196,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Passover Begins`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `First Contact Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		} 
 	},
@@ -211,7 +211,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Gold Star Spouses Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		} 
 	},
@@ -219,7 +219,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Flash Drive Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		}
 	},
@@ -227,7 +227,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Nebraska Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		} 
 	},
@@ -235,7 +235,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Deep Dish Pizza Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		}
 	},
@@ -243,14 +243,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Childhelp National Day Of Hope`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Read A Road Map Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		}
 	},
@@ -258,7 +258,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Raisin And Spice Bar Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		}
 	},
@@ -266,7 +266,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Caramel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		} 
 	},
@@ -274,7 +274,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Go For Broke Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 5 
 		}
 	},
@@ -282,14 +282,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Walking Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Carbonara Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 6 
 		} 
 	},
@@ -297,28 +297,28 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Employee Benefits Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `New Beer's Eve`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Burrito Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Tartan Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 6 
 		} 
 	},
@@ -326,14 +326,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Alcohol Screening Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Teflon Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 6 
 		} 
 	},
@@ -341,14 +341,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Student`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Caramel Popcorn Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 6 
 		}
 	},
@@ -356,7 +356,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Sorry Charlie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 6 
 		}
 	},
@@ -364,14 +364,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Good Friday`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Girl Me Too Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 7 
 		}
 	},
@@ -379,7 +379,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `World Health Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 7 
 		} 
 	},
@@ -387,7 +387,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National No Housework Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 7 
 		}
 	},
@@ -395,7 +395,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Coffee Cake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 7 
 		}
 	},
@@ -403,7 +403,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Beer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 7 
 		} 
 	},
@@ -411,7 +411,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Empanada Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 8 
 		} 
 	},
@@ -419,7 +419,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Zoo Lovers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 8 
 		}
 	},
@@ -427,7 +427,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National All Is Ours Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 8 
 		}
 	},
@@ -435,7 +435,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Unicorn Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		} 
 	},
@@ -443,14 +443,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Easter`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Former Prisoner Of War Recognition Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		}
 	},
@@ -458,7 +458,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Chinese Almond Cookie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		}
 	},
@@ -466,7 +466,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Winston Churchill Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		}
 	},
@@ -474,7 +474,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Name Yourself Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		}
 	},
@@ -482,7 +482,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cherish An Antique Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 9 
 		}
 	},
@@ -490,7 +490,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Farm Animals Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 10 
 		}
 	},
@@ -498,7 +498,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cinnamon Crescent  Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 10 
 		}
 	},
@@ -506,7 +506,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Siblings Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 10 
 		} 
 	},
@@ -514,7 +514,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Encourage A Young Writer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 10 
 		}
 	},
@@ -522,7 +522,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Living Donor Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		}
 	},
@@ -530,7 +530,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Submarine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		}
 	},
@@ -538,7 +538,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cheese Fondue Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		}
 	},
@@ -546,7 +546,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Pet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		} 
 	},
@@ -554,7 +554,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Eight Track Tape Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		}
 	},
@@ -562,7 +562,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Barbershop Quartet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 11 
 		}
 	},
@@ -570,7 +570,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Only Child Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		}
 	},
@@ -578,7 +578,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National For Twelves Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		}
 	},
@@ -586,7 +586,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Colorado Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		} 
 	},
@@ -594,7 +594,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Grilled Cheese Sandwich Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		}
 	},
@@ -602,7 +602,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Licorice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		} 
 	},
@@ -610,7 +610,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Big Wind Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 12 
 		} 
 	},
@@ -618,7 +618,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Borinqueneers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 13 
 		}
 	},
@@ -626,7 +626,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Make Lunch Count Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 13 
 		}
 	},
@@ -634,7 +634,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Peach Cobbler Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 13 
 		}
 	},
@@ -642,7 +642,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Thomas Jefferson Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 13 
 		}
 	},
@@ -650,7 +650,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Scrabble Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 13 
 		} 
 	},
@@ -658,7 +658,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `International Laverbread Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		}
 	},
@@ -666,7 +666,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Gardening Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		}
 	},
@@ -674,14 +674,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Donate Life Blue & Green Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name: `National Dolphin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		} 
 	},
@@ -689,7 +689,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `Look Up At The Sky Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		}
 	},
@@ -697,14 +697,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Day Of Silence`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Pecan Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		} 
 	},
@@ -712,14 +712,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Ex`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Pan American Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		}
 	},
@@ -727,7 +727,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Reach As High As You Can Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 14 
 		}
 	},
@@ -735,7 +735,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Laundry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		} 
 	},
@@ -743,7 +743,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Purple Up! Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		} 
 	},
@@ -751,14 +751,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Auctioneers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Glazed Spiral Ham Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		}
 	},
@@ -766,7 +766,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Titanic Remembrance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		}
 	},
@@ -774,7 +774,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Rubber Eraser Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		}
 	},
@@ -782,7 +782,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Take A Wild Guess Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		}
 	},
@@ -790,7 +790,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Tax Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 15 
 		} 
 	},
@@ -798,7 +798,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Bean Counter Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 16 
 		}
 	},
@@ -806,7 +806,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Orchid Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 16 
 		} 
 	},
@@ -814,7 +814,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Healthcare Decisions Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 16 
 		}
 	},
@@ -822,7 +822,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Wear Your Pajamas To Work Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 16 
 		}
 	},
@@ -830,7 +830,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Eggs Benedict Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 16 
 		}
 	},
@@ -838,7 +838,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Crawfish Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 17 
 		} 
 	},
@@ -846,7 +846,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cheeseball Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 17 
 		}
 	},
@@ -854,7 +854,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Haiku Poetry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 17 
 		}
 	},
@@ -862,7 +862,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Ellis Island Family History Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 17 
 		}
 	},
@@ -870,7 +870,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `International Bat Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 17 
 		}
 	},
@@ -878,7 +878,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Exercise Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 18 
 		} 
 	},
@@ -886,7 +886,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Animal Crackers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 18 
 		}
 	},
@@ -894,7 +894,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Columnists' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 18 
 		}
 	},
@@ -902,7 +902,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Lineman Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 18 
 		}
 	},
@@ -910,14 +910,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Banana Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National North Dakota Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 19 
 		}
 	},
@@ -925,7 +925,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Amaretto Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 19 
 		} 
 	},
@@ -933,7 +933,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Garlic Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 19 
 		} 
 	},
@@ -941,7 +941,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Oklahoma City Bombing Commemoration Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 19 
 		}
 	},
@@ -949,7 +949,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Hanging Out Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 19 
 		}
 	},
@@ -957,7 +957,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `420 Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 20 
 		} 
 	},
@@ -965,14 +965,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Get To Know Your Customers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `Volunteer Recognition Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 20 
 		}
 	},
@@ -980,7 +980,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cheddar Fries Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 20 
 		}
 	},
@@ -988,14 +988,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Pineapple Upside`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Lima Bean Respect Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 20 
 		}
 	},
@@ -1003,7 +1003,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Look Alike Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 20 
 		}
 	},
@@ -1011,14 +1011,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National High Five Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Rendering Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 21 
 		}
 	},
@@ -1026,14 +1026,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Clean Out Your Medicine Cabinet Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name:    `National Yellow Bat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 21 
 		}
 	},
@@ -1041,14 +1041,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Chocolate`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Kindergarten Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 21 
 		}
 	},
@@ -1056,21 +1056,21 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Celebrate Trails Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Record Store Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Jelly Bean Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 22 
 		}
 	},
@@ -1078,7 +1078,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Girl Scout Leader's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 22 
 		}
 	},
@@ -1086,7 +1086,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Earth Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 22 
 		} 
 	},
@@ -1094,7 +1094,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Lost Dog Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 23 
 		}
 	},
@@ -1102,7 +1102,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Cherry Cheesecake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 23 
 		}
 	},
@@ -1110,7 +1110,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Take A Chance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 23 
 		}
 	},
@@ -1118,7 +1118,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Picnic Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 23 
 		} 
 	},
@@ -1126,7 +1126,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Talk Like Shakespeare Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 23 
 		}
 	},
@@ -1134,7 +1134,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Bucket List Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 24 
 		}
 	},
@@ -1142,14 +1142,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Pigs`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Hug A Plumber Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 25 
 		}
 	},
@@ -1157,7 +1157,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Dna Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 25 
 		} 
 	},
@@ -1165,7 +1165,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Zucchini Bread Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 25 
 		}
 	},
@@ -1173,7 +1173,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National East Meets West Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 25 
 		}
 	},
@@ -1181,7 +1181,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Telephone Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 25 
 		}
 	},
@@ -1189,28 +1189,28 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Library Workers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `Stop Food Waste Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `Denim Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National South Dakota Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		}
 	},
@@ -1218,7 +1218,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Dissertation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		}
 	},
@@ -1226,7 +1226,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Help A Horse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		}
 	},
@@ -1234,14 +1234,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Library Outreach Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Pretzel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		} 
 	},
@@ -1249,7 +1249,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Kids And Pets Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		}
 	},
@@ -1257,7 +1257,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Richter Scale Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		}
 	},
@@ -1265,7 +1265,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Audubon Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 26 
 		} 
 	},
@@ -1273,14 +1273,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Administrative Professionals Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name:    `National Gummi Bear Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 27 
 		}
 	},
@@ -1288,7 +1288,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Devil Dog Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 27 
 		}
 	},
@@ -1296,14 +1296,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Teach Children To Save Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name:    `National Prime Rib Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 27 
 		}
 	},
@@ -1311,7 +1311,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Tell A Story Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 27 
 		}
 	},
@@ -1319,7 +1319,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Babe Ruth Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 27 
 		}
 	},
@@ -1327,28 +1327,28 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Take Our Daughters And Sons To Work Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name:    `National Poem In Your Pocket Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name: `National Historic Marker Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Superhero Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 28 
 		}
 	},
@@ -1356,7 +1356,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Bravehearts Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 28 
 		}
 	},
@@ -1364,7 +1364,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Workers’ Memorial Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 28 
 		} 
 	},
@@ -1372,14 +1372,14 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Hairball Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		}
 	},
 	{
 		name:    `National Blueberry Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 28 
 		}
 	},
@@ -1387,7 +1387,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Great Poetry Reading Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 28 
 		}
 	},
@@ -1395,28 +1395,28 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Arbor Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `World Veterinary Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National First Ladies Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `World Wish Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 29 
 		} 
 	},
@@ -1424,42 +1424,42 @@ export const aprilEvents: IRepeatData[] = [
 		name: `Independent Bookstore Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Pool Opening Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Kiss Of Hope Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Sense Of Smell Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name: `National Rebuilding Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Shrimp Scampi Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 29 
 		}
 	},
@@ -1467,7 +1467,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Zipper Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 29 
 		} 
 	},
@@ -1475,7 +1475,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Peace Rose Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 29 
 		}
 	},
@@ -1483,7 +1483,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Bubble Tea Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1491,7 +1491,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Prepareathon! Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1499,7 +1499,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Military Brats Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1507,7 +1507,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Adopt A Shelter Pet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1515,14 +1515,14 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Pet Parents Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.april 
+			month: NATIVE_MONTHS.april 
 		} 
 	},
 	{
 		name:    `National Sarcoidosis Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1530,7 +1530,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Raisin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		} 
 	},
@@ -1538,7 +1538,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Oatmeal Cookie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1546,7 +1546,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Hairstylist Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1554,7 +1554,7 @@ export const aprilEvents: IRepeatData[] = [
 		name:    `National Bugs Bunny Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		}
 	},
@@ -1562,7 +1562,7 @@ export const aprilEvents: IRepeatData[] = [
 		name: `National Honesty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.april,
+			month: NATIVE_MONTHS.april,
 			day: 30 
 		} 
 	},

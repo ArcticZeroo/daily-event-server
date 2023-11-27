@@ -1,13 +1,12 @@
-import {
-	RepeatMonth, RepeatPatternType 
-} from '../../../models/pattern.js';
+import {RepeatPatternType} from '../../../models/pattern.js';
+import { NATIVE_MONTHS } from '../../../util/date.js';
 
 export const julyEvents = [
 	{
 		name:    `International Plastic Bag Free Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		}
 	},
@@ -15,7 +14,7 @@ export const julyEvents = [
 		name:    `International Drop A Rock Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		}
 	},
@@ -23,7 +22,7 @@ export const julyEvents = [
 		name: `National Fried Clam Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		} 
 	},
@@ -31,7 +30,7 @@ export const julyEvents = [
 		name:    `National Chocolate Wafer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		}
 	},
@@ -39,7 +38,7 @@ export const julyEvents = [
 		name:    `National Eat Your Beans Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		}
 	},
@@ -47,7 +46,7 @@ export const julyEvents = [
 		name:    `National Compliment Your Mirror Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 3 
 		}
 	},
@@ -55,7 +54,7 @@ export const julyEvents = [
 		name: `Alice In Wonderland Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 4 
 		} 
 	},
@@ -63,7 +62,7 @@ export const julyEvents = [
 		name: `Independence Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 4 
 		} 
 	},
@@ -71,7 +70,7 @@ export const julyEvents = [
 		name:    `National Caesar Salad Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 4 
 		}
 	},
@@ -79,7 +78,7 @@ export const julyEvents = [
 		name:    `National Barbecued Spareribs Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 4 
 		}
 	},
@@ -87,7 +86,7 @@ export const julyEvents = [
 		name: `National Hawaii Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 5 
 		} 
 	},
@@ -95,7 +94,7 @@ export const julyEvents = [
 		name: `National Bikini Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 5 
 		} 
 	},
@@ -103,7 +102,7 @@ export const julyEvents = [
 		name:    `National Graham Cracker Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 5 
 		}
 	},
@@ -111,7 +110,7 @@ export const julyEvents = [
 		name:    `National Apple Turnover Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 5 
 		}
 	},
@@ -119,7 +118,7 @@ export const julyEvents = [
 		name:    `National Workaholics Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 5 
 		}
 	},
@@ -127,7 +126,7 @@ export const julyEvents = [
 		name:    `International Kissing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 6 
 		}
 	},
@@ -135,7 +134,7 @@ export const julyEvents = [
 		name: `National Hand Roll Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 6 
 		} 
 	},
@@ -143,7 +142,7 @@ export const julyEvents = [
 		name:    `National Fried Chicken Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 6 
 		}
 	},
@@ -151,7 +150,7 @@ export const julyEvents = [
 		name: `National Koi Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		} 
 	},
@@ -159,7 +158,7 @@ export const julyEvents = [
 		name:    `National Day Of Rock 'n' Roll`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		}
 	},
@@ -167,7 +166,7 @@ export const julyEvents = [
 		name: `Global Forgiveness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		} 
 	},
@@ -175,7 +174,7 @@ export const julyEvents = [
 		name: `National Dive Bar Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		} 
 	},
@@ -183,7 +182,7 @@ export const julyEvents = [
 		name: `World Chocolate Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		} 
 	},
@@ -191,7 +190,7 @@ export const julyEvents = [
 		name: `National Macaroni Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		} 
 	},
@@ -199,7 +198,7 @@ export const julyEvents = [
 		name:    `National Strawberry Sundae Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		}
 	},
@@ -207,7 +206,7 @@ export const julyEvents = [
 		name:    `National Father Daughter Take A Walk Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 7 
 		}
 	},
@@ -215,7 +214,7 @@ export const julyEvents = [
 		name: `National Raspberry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 8 
 		} 
 	},
@@ -223,7 +222,7 @@ export const julyEvents = [
 		name:    `National Freezer Pop Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 8 
 		}
 	},
@@ -231,14 +230,14 @@ export const julyEvents = [
 		name: `International Skinny Dip Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Chocolate With Almonds Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 8 
 		}
 	},
@@ -246,7 +245,7 @@ export const julyEvents = [
 		name: `National Dimples Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 9 
 		} 
 	},
@@ -254,7 +253,7 @@ export const julyEvents = [
 		name:    `National Sugar Cookie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 9 
 		}
 	},
@@ -262,7 +261,7 @@ export const julyEvents = [
 		name: `Chronic Disease Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 10 
 		} 
 	},
@@ -270,7 +269,7 @@ export const julyEvents = [
 		name:    `Global Energy Independence Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 10 
 		}
 	},
@@ -278,7 +277,7 @@ export const julyEvents = [
 		name:    `National Pina Colada Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 10 
 		}
 	},
@@ -286,7 +285,7 @@ export const julyEvents = [
 		name: `National Kitten Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 10 
 		} 
 	},
@@ -294,14 +293,14 @@ export const julyEvents = [
 		name: `International Town Criers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Clerihew Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 10 
 		} 
 	},
@@ -309,14 +308,14 @@ export const julyEvents = [
 		name: `Cow Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `World Benzodiazepine Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		}
 	},
@@ -324,7 +323,7 @@ export const julyEvents = [
 		name: `World Population Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		} 
 	},
@@ -332,14 +331,14 @@ export const julyEvents = [
 		name: `National 7`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Mojito Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		} 
 	},
@@ -347,7 +346,7 @@ export const julyEvents = [
 		name:    `All American Pet Photo Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		}
 	},
@@ -355,7 +354,7 @@ export const julyEvents = [
 		name:    `National Blueberry Muffin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		}
 	},
@@ -363,7 +362,7 @@ export const julyEvents = [
 		name:    `National Rainier Cherry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		}
 	},
@@ -371,7 +370,7 @@ export const julyEvents = [
 		name:    `National Cheer Up The Lonely Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 11 
 		}
 	},
@@ -379,7 +378,7 @@ export const julyEvents = [
 		name: `Malala Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		} 
 	},
@@ -387,7 +386,7 @@ export const julyEvents = [
 		name: `Eat Your Jello Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		} 
 	},
@@ -395,7 +394,7 @@ export const julyEvents = [
 		name: `Paper Bag Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		} 
 	},
@@ -403,7 +402,7 @@ export const julyEvents = [
 		name: `National Pecan Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		} 
 	},
@@ -411,7 +410,7 @@ export const julyEvents = [
 		name:    `National Different Colored Eyes Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		}
 	},
@@ -419,7 +418,7 @@ export const julyEvents = [
 		name:    `National Simplicity Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 12 
 		}
 	},
@@ -427,7 +426,7 @@ export const julyEvents = [
 		name:    `National Barbershop Music Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 13 
 		}
 	},
@@ -435,7 +434,7 @@ export const julyEvents = [
 		name:    `National Beans ‘n’ Franks Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 13 
 		}
 	},
@@ -443,7 +442,7 @@ export const julyEvents = [
 		name: `National Delaware Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 13 
 		} 
 	},
@@ -451,14 +450,14 @@ export const julyEvents = [
 		name: `National French Fry Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Mac And Cheese Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 14 
 		}
 	},
@@ -466,14 +465,14 @@ export const julyEvents = [
 		name: `World Kebab Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Nude Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 14 
 		} 
 	},
@@ -481,7 +480,7 @@ export const julyEvents = [
 		name:    `National Tape Measure Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 14 
 		}
 	},
@@ -489,7 +488,7 @@ export const julyEvents = [
 		name: `Bastille Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 14 
 		} 
 	},
@@ -497,14 +496,14 @@ export const julyEvents = [
 		name: `Collector Car Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Grand Marnier Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 14 
 		}
 	},
@@ -512,7 +511,7 @@ export const julyEvents = [
 		name:    `Social Media Giving Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -520,7 +519,7 @@ export const julyEvents = [
 		name:    `National Gummi Worm Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -528,7 +527,7 @@ export const julyEvents = [
 		name:    `National Tapioca Pudding Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -536,7 +535,7 @@ export const julyEvents = [
 		name:    `National I Love Horses Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -544,7 +543,7 @@ export const julyEvents = [
 		name:    `National Pet Fire Safety Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -552,7 +551,7 @@ export const julyEvents = [
 		name:    `National Give Something Away Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		}
 	},
@@ -560,7 +559,7 @@ export const julyEvents = [
 		name: `World Youth Skills Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 15 
 		} 
 	},
@@ -568,14 +567,14 @@ export const julyEvents = [
 		name:    `Toss Away The “could Haves” And “should Haves” Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		}
 	},
 	{
 		name: `Corn Fritters Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 16 
 		} 
 	},
@@ -583,7 +582,7 @@ export const julyEvents = [
 		name:    `National Personal Chef Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 16 
 		}
 	},
@@ -591,7 +590,7 @@ export const julyEvents = [
 		name: `World Snake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 16 
 		} 
 	},
@@ -599,14 +598,14 @@ export const julyEvents = [
 		name: `National Ice Cream Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `Day For International Criminal Justice`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		}
 	},
@@ -614,14 +613,14 @@ export const julyEvents = [
 		name:    `National Get Out Of The Doghouse Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		}
 	},
 	{
 		name: `National Lottery Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		} 
 	},
@@ -629,7 +628,7 @@ export const julyEvents = [
 		name: `National Tattoo Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		} 
 	},
@@ -637,7 +636,7 @@ export const julyEvents = [
 		name: `World Emoji Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		} 
 	},
@@ -645,7 +644,7 @@ export const julyEvents = [
 		name:    `National Yellow Pig Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		}
 	},
@@ -653,7 +652,7 @@ export const julyEvents = [
 		name:    `National Wrong Way Corrigan Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		}
 	},
@@ -661,7 +660,7 @@ export const julyEvents = [
 		name:    `National Peach Ice Cream Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 17 
 		}
 	},
@@ -669,7 +668,7 @@ export const julyEvents = [
 		name:    `National Tropical Fruit Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 18 
 		}
 	},
@@ -677,7 +676,7 @@ export const julyEvents = [
 		name: `World Listening Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 18 
 		} 
 	},
@@ -685,7 +684,7 @@ export const julyEvents = [
 		name:    `Nelson Mandela International Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 18 
 		}
 	},
@@ -693,7 +692,7 @@ export const julyEvents = [
 		name:    `National Sour Candy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 18 
 		}
 	},
@@ -701,7 +700,7 @@ export const julyEvents = [
 		name: `National Caviar Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 18 
 		} 
 	},
@@ -709,7 +708,7 @@ export const julyEvents = [
 		name:    `Global Hug Your Kids Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 19 
 		}
 	},
@@ -717,7 +716,7 @@ export const julyEvents = [
 		name: `National Daiquiri Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 19 
 		} 
 	},
@@ -725,7 +724,7 @@ export const julyEvents = [
 		name:    `International Retainer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 19 
 		}
 	},
@@ -733,7 +732,7 @@ export const julyEvents = [
 		name:    `National Words With Friends Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 19 
 		}
 	},
@@ -741,14 +740,14 @@ export const julyEvents = [
 		name: `National Hot Dog Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Moon Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		} 
 	},
@@ -756,7 +755,7 @@ export const julyEvents = [
 		name:    `National Pennsylvania Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		}
 	},
@@ -764,14 +763,14 @@ export const julyEvents = [
 		name: `Get To Know Your Customers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Lollipop Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		} 
 	},
@@ -779,7 +778,7 @@ export const julyEvents = [
 		name:    `National Fortune Cookie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		}
 	},
@@ -787,7 +786,7 @@ export const julyEvents = [
 		name: `World Jump Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		} 
 	},
@@ -795,7 +794,7 @@ export const julyEvents = [
 		name:    `International Chess Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 20 
 		}
 	},
@@ -803,7 +802,7 @@ export const julyEvents = [
 		name:    `National Be Someone Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 21 
 		}
 	},
@@ -811,7 +810,7 @@ export const julyEvents = [
 		name: `National Junk Food Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 21 
 		} 
 	},
@@ -819,7 +818,7 @@ export const julyEvents = [
 		name: `National Lamington Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 21 
 		} 
 	},
@@ -827,14 +826,14 @@ export const julyEvents = [
 		name: `National Day Of The Cowboy`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Fragile X Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 22 
 		}
 	},
@@ -842,7 +841,7 @@ export const julyEvents = [
 		name:    `National Penuche Fudge Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 22 
 		}
 	},
@@ -850,7 +849,7 @@ export const julyEvents = [
 		name: `National Mango Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 22 
 		} 
 	},
@@ -858,7 +857,7 @@ export const julyEvents = [
 		name: `National Hammock Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 22 
 		} 
 	},
@@ -866,7 +865,7 @@ export const julyEvents = [
 		name:    `National Rat Catcher’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 22 
 		}
 	},
@@ -874,7 +873,7 @@ export const julyEvents = [
 		name: `Gorgeous Grandma Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 23 
 		} 
 	},
@@ -882,7 +881,7 @@ export const julyEvents = [
 		name: `World Sjogren's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 23 
 		} 
 	},
@@ -890,14 +889,14 @@ export const julyEvents = [
 		name: `National Parents' Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Vanilla Ice Cream Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 23 
 		}
 	},
@@ -905,7 +904,7 @@ export const julyEvents = [
 		name:    `International Self Care Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 24 
 		}
 	},
@@ -913,7 +912,7 @@ export const julyEvents = [
 		name:    `National Thermal Engineer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 24 
 		}
 	},
@@ -921,14 +920,14 @@ export const julyEvents = [
 		name: `National Drive`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name: `National Cousins Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 24 
 		} 
 	},
@@ -936,7 +935,7 @@ export const julyEvents = [
 		name:    `National Amelia Earhart Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 24 
 		}
 	},
@@ -944,7 +943,7 @@ export const julyEvents = [
 		name: `National Tequila Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 24 
 		} 
 	},
@@ -952,7 +951,7 @@ export const julyEvents = [
 		name:    `National Wine And Cheese Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 25 
 		}
 	},
@@ -960,7 +959,7 @@ export const julyEvents = [
 		name:    `National Hire A Veteran Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 25 
 		}
 	},
@@ -968,7 +967,7 @@ export const julyEvents = [
 		name:    `National Hot Fudge Sundae Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 25 
 		}
 	},
@@ -976,14 +975,14 @@ export const julyEvents = [
 		name: `National Merry`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Thread The Needle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 25 
 		}
 	},
@@ -991,7 +990,7 @@ export const julyEvents = [
 		name: `National Bagelfest Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 26 
 		} 
 	},
@@ -999,7 +998,7 @@ export const julyEvents = [
 		name:    `National Coffee Milkshake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 26 
 		}
 	},
@@ -1007,7 +1006,7 @@ export const julyEvents = [
 		name:    `National All Or Nothing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 26 
 		}
 	},
@@ -1015,7 +1014,7 @@ export const julyEvents = [
 		name:    `National Disability Independence Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 26 
 		}
 	},
@@ -1023,7 +1022,7 @@ export const julyEvents = [
 		name:    `National Aunt And Uncle's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 26 
 		}
 	},
@@ -1031,7 +1030,7 @@ export const julyEvents = [
 		name:    `National Korean War Veterans Armistice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 27 
 		}
 	},
@@ -1039,7 +1038,7 @@ export const julyEvents = [
 		name: `National Scotch Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 27 
 		} 
 	},
@@ -1047,14 +1046,14 @@ export const julyEvents = [
 		name: `National Refreshment Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Creme Brulee Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 27 
 		}
 	},
@@ -1062,14 +1061,14 @@ export const julyEvents = [
 		name: `National Intern Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National New Jersey Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 27 
 		}
 	},
@@ -1077,14 +1076,14 @@ export const julyEvents = [
 		name: `National Chili Dog Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Love Is Kind Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 27 
 		}
 	},
@@ -1092,7 +1091,7 @@ export const julyEvents = [
 		name: `World Conservation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 28 
 		} 
 	},
@@ -1100,7 +1099,7 @@ export const julyEvents = [
 		name: `World Hepatitis Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 28 
 		} 
 	},
@@ -1108,7 +1107,7 @@ export const julyEvents = [
 		name: `National Waterpark Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 28 
 		} 
 	},
@@ -1116,21 +1115,21 @@ export const julyEvents = [
 		name: `National Get Gnarly Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Talk In An Elevator Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		}
 	},
 	{
 		name: `Buffalo Soldiers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 28 
 		} 
 	},
@@ -1138,7 +1137,7 @@ export const julyEvents = [
 		name:    `National Milk Chocolate Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 28 
 		}
 	},
@@ -1146,14 +1145,14 @@ export const julyEvents = [
 		name:    `National System Administrator Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		}
 	},
 	{
 		name:    `International Tiger Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 29 
 		}
 	},
@@ -1161,7 +1160,7 @@ export const julyEvents = [
 		name: `National Lipstick Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 29 
 		} 
 	},
@@ -1169,7 +1168,7 @@ export const julyEvents = [
 		name:    `National Chicken Wing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 29 
 		}
 	},
@@ -1177,7 +1176,7 @@ export const julyEvents = [
 		name: `National Lasagna Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 29 
 		} 
 	},
@@ -1185,7 +1184,7 @@ export const julyEvents = [
 		name:    `National Climb A Mountain Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 30 
 		}
 	},
@@ -1193,7 +1192,7 @@ export const julyEvents = [
 		name:    `World Day Against Trafficking In Persons`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 30 
 		}
 	},
@@ -1201,7 +1200,7 @@ export const julyEvents = [
 		name:    `International Day Of Friendship`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 30 
 		}
 	},
@@ -1209,7 +1208,7 @@ export const julyEvents = [
 		name:    `National Whistleblower Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 30 
 		}
 	},
@@ -1217,14 +1216,14 @@ export const julyEvents = [
 		name: `National Father`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.july 
+			month: NATIVE_MONTHS.july 
 		} 
 	},
 	{
 		name:    `National Cheesecake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 30 
 		}
 	},
@@ -1232,7 +1231,7 @@ export const julyEvents = [
 		name: `World Ranger Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 31 
 		} 
 	},
@@ -1240,7 +1239,7 @@ export const julyEvents = [
 		name: `National Avocado Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 31 
 		} 
 	},
@@ -1248,7 +1247,7 @@ export const julyEvents = [
 		name: `National Mutt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 31 
 		} 
 	},
@@ -1256,7 +1255,7 @@ export const julyEvents = [
 		name:    `National Raspberry Cake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 31 
 		}
 	},

@@ -2,7 +2,6 @@ import {
 	IRepeatData,
 	RelativeOffsetDirection,
 	RelativeOrder,
-	RepeatMonth,
 	RepeatPatternType
 } from '../../../models/pattern.js';
 import {
@@ -14,7 +13,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		} 
 	},
@@ -22,7 +21,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Antarctica Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		} 
 	},
@@ -30,7 +29,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Bartender Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
@@ -39,7 +38,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Eat A Red Apple Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		}
 	},
@@ -47,7 +46,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Faux Fur Friday`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
@@ -56,7 +55,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `World Aids Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		} 
 	},
@@ -64,7 +63,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Rosa Parks Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		} 
 	},
@@ -72,7 +71,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Day Without Art`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		} 
 	},
@@ -80,7 +79,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Bifocals At The Monitor Liberation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 1 
 		}
 	},
@@ -88,7 +87,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Fritters Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 2 
 		}
 	},
@@ -96,7 +95,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Skywarn® Recognition Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.first
 		}
@@ -105,7 +104,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Mutt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 2 
 		} 
 	},
@@ -113,7 +112,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Mutt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.july,
+			month: NATIVE_MONTHS.july,
 			day: 31 
 		} 
 	},
@@ -121,7 +120,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Special Education Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 2 
 		}
 	},
@@ -129,7 +128,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Day For The Abolition Of Slavery`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 2 
 		}
 	},
@@ -137,7 +136,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Roof Over Your Head Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 3 
 		}
 	},
@@ -145,7 +144,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Day Of Persons With Disabilities`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 3 
 		}
 	},
@@ -153,7 +152,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Santa's List Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		} 
 	},
@@ -161,7 +160,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Cabernet Franc Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		} 
 	},
@@ -169,7 +168,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Cheetah Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		}
 	},
@@ -177,7 +176,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Wildlife Conservation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		}
 	},
@@ -185,7 +184,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Sock Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		} 
 	},
@@ -193,7 +192,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Dice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		} 
 	},
@@ -201,7 +200,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Cookie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 4 
 		} 
 	},
@@ -209,7 +208,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Krampusnacht`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		} 
 	},
@@ -217,7 +216,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `World Soil Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		} 
 	},
@@ -225,7 +224,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Repeal Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		} 
 	},
@@ -233,7 +232,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `World Trick Shot Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday,
 			order:     RelativeOrder.first
 		}
@@ -242,7 +241,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Sacher Torte Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		}
 	},
@@ -250,7 +249,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Volunteer Day For Economic And Social Development`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		}
 	},
@@ -258,7 +257,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Ninja Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		}
 	},
@@ -266,7 +265,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Bathtub Party Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 5 
 		} 
 	},
@@ -274,7 +273,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Mitten Tree Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		} 
 	},
@@ -282,7 +281,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Day Of Remembrance And Action On Violence Against Women`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		}
 	},
@@ -290,7 +289,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Gazpacho Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		}
 	},
@@ -298,7 +297,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Saint Nicholas Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		} 
 	},
@@ -306,7 +305,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Miner's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		}
 	},
@@ -314,7 +313,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Pawnbrokers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 6 
 		}
 	},
@@ -322,7 +321,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Slime Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 7 
 		} 
 	},
@@ -330,7 +329,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Illinois Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 7 
 		}
 	},
@@ -379,7 +378,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Civil Aviation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 7 
 		}
 	},
@@ -387,7 +386,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Cotton Candy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 7 
 		}
 	},
@@ -395,7 +394,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National  Pearl Harbor Remembrance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 7 
 		}
 	},
@@ -403,7 +402,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Crossword Solvers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 8 
 		}
 	},
@@ -411,7 +410,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Bodhi Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 8 
 		} 
 	},
@@ -419,7 +418,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Salesperson Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.second
 		}
@@ -428,7 +427,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Brownie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 8 
 		}
 	},
@@ -436,7 +435,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Pretend To Be A Time Traveler Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 8 
 		}
 	},
@@ -444,7 +443,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Lutefisk Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		} 
 	},
@@ -452,7 +451,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `World Techno Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		} 
 	},
@@ -460,7 +459,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Christmas Card Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		} 
 	},
@@ -468,7 +467,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Day Of Commemoration And Dignity Of The Victims Of The Crime Of Genocide`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		}
 	},
@@ -476,7 +475,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Pastry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		} 
 	},
@@ -484,7 +483,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Weary Willie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		} 
 	},
@@ -492,7 +491,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Anti-Corruption Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 9 
 		}
 	},
@@ -500,7 +499,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Lager Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 10 
 		} 
 	},
@@ -508,7 +507,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Nobel Prize Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 10 
 		} 
 	},
@@ -516,7 +515,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Human Rights Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 10 
 		} 
 	},
@@ -524,7 +523,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Dewey Decimal System Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 10 
 		}
 	},
@@ -532,7 +531,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Stretching Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 11 
 		}
 	},
@@ -540,7 +539,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Unicef Birthday`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 11 
 		} 
 	},
@@ -548,7 +547,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National App Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 11 
 		} 
 	},
@@ -556,7 +555,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Noodle Ring Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 11 
 		}
 	},
@@ -564,7 +563,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Mountain Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 11 
 		}
 	},
@@ -572,7 +571,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Universal Health Coverage Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -580,7 +579,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Day Of Neutrality`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -588,7 +587,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Ding-a-ling Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -596,7 +595,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Ambrosia Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -604,7 +603,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Poinsettia Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -612,7 +611,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Gingerbread House Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 12 
 		}
 	},
@@ -620,7 +619,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Guard Birthday`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 13 
 		}
 	},
@@ -628,7 +627,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Violin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 13 
 		}
 	},
@@ -636,7 +635,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Cocoa Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 13 
 		} 
 	},
@@ -644,7 +643,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Day Of The Horse`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 13 
 		}
 	},
@@ -652,16 +651,16 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Pick A Pathologist Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 13 
 		}
 	},
-	// { name: `Asarah B'tevet`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december } },
+	// { name: `Asarah B'tevet`, pattern: { type: RepeatPatternType.floating, month: NATIVE_MONTHS.december } },
 	{
 		name:    `Martyred Intellectuals Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 14 
 		}
 	},
@@ -669,7 +668,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Alabama Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 14 
 		}
 	},
@@ -677,7 +676,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Bouillabaisse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 14 
 		}
 	},
@@ -685,7 +684,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Monkey Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 14 
 		} 
 	},
@@ -693,7 +692,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Tea Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 15 
 		}
 	},
@@ -701,7 +700,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Wear Your Pearls Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 15 
 		}
 	},
@@ -709,7 +708,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Ugly Christmas Sweater Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
@@ -718,7 +717,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Cupcake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 15 
 		}
 	},
@@ -726,7 +725,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Underdog Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.december,
+			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
@@ -735,7 +734,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Cat Herders Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 15 
 		} 
 	},
@@ -743,19 +742,19 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Bill Of Rights Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 15 
 		} 
 	},
 	/*{
 		name:    `National Wreaths Across America Day`,
-		pattern: { type: RepeatPatternType.floating, month: RepeatMonth.december }
+		pattern: { type: RepeatPatternType.floating, month: NATIVE_MONTHS.december }
 	},*/
 	{
 		name:    `National Chocolate-Covered Anything Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 16 
 		}
 	},
@@ -763,7 +762,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Barbie And Barney Backlash Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 16 
 		}
 	},
@@ -771,7 +770,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Maple Syrup Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 17 
 		}
 	},
@@ -779,7 +778,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Wright Brothers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 17 
 		}
 	},
@@ -787,7 +786,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `World Arabic Language Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 18 
 		}
 	},
@@ -795,7 +794,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Twin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 18 
 		} 
 	},
@@ -803,7 +802,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Roast Suckling Pig Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 18 
 		}
 	},
@@ -811,7 +810,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Migrants Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 18 
 		}
 	},
@@ -819,7 +818,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Answer The Telephone Like Buddy The Elf Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 18 
 		}
 	},
@@ -827,7 +826,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Oatmeal Muffin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 19 
 		}
 	},
@@ -835,7 +834,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Hard Candy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 19 
 		}
 	},
@@ -843,7 +842,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Go Caroling Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 20 
 		} 
 	},
@@ -851,7 +850,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Sangria Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 20 
 		}
 	},
@@ -859,7 +858,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Mudd Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 20 
 		} 
 	},
@@ -867,7 +866,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `International Human Solidarity Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 20 
 		}
 	},
@@ -875,7 +874,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Maine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 21 
 		} 
 	},
@@ -883,7 +882,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National French Fried Shrimp Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 21 
 		}
 	},
@@ -929,7 +928,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Phileas Fogg Win A Wager Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 21 
 		}
 	},
@@ -937,7 +936,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Humbug Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 21 
 		} 
 	},
@@ -945,7 +944,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Crossword Puzzle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 21 
 		}
 	},
@@ -953,7 +952,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Date Nut Bread Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 22 
 		}
 	},
@@ -977,7 +976,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `National Roots Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 23 
 		} 
 	},
@@ -985,7 +984,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Pfeffernusse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 23 
 		}
 	},
@@ -993,7 +992,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Festivus`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 23 
 		} 
 	},
@@ -1001,7 +1000,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Eggnog Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 24 
 		}
 	},
@@ -1009,7 +1008,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Christmas Eve`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 24 
 		} 
 	},
@@ -1017,7 +1016,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Pumpkin Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 25 
 		}
 	},
@@ -1025,7 +1024,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:     `Christmas Day`,
 		pattern:  {
 			type:  RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day:   25
 		},
 		children: [
@@ -1043,7 +1042,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `"A'phabet Day Or No ""l"" Day"`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 25 
 		}
 	},
@@ -1051,7 +1050,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Whiners Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 26 
 		}
 	},
@@ -1059,7 +1058,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Thank You Note Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 26 
 		}
 	},
@@ -1067,7 +1066,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Candy Cane Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 26 
 		}
 	},
@@ -1075,7 +1074,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Boxing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 26 
 		} 
 	},
@@ -1083,7 +1082,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Fruitcake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 27 
 		}
 	},
@@ -1091,7 +1090,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Short Film Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 28 
 		}
 	},
@@ -1099,7 +1098,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Card Playing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 28 
 		}
 	},
@@ -1107,7 +1106,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Chocolate Candy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 28 
 		}
 	},
@@ -1115,7 +1114,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Pledge Of Allegiance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 28 
 		}
 	},
@@ -1123,7 +1122,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Holy Innocents Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 28 
 		} 
 	},
@@ -1131,7 +1130,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Pepper Pot Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 29 
 		}
 	},
@@ -1139,7 +1138,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `No Interruptions Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		}
 	}, // Technically "the last work day of the year", but that feels nebulous.
@@ -1147,7 +1146,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Tick Tock Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 29 
 		} 
 	},
@@ -1155,7 +1154,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Bicarbonate Of Soda Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 30 
 		}
 	},
@@ -1163,7 +1162,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Falling Needles Family Fest Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 30 
 		}
 	},
@@ -1171,7 +1170,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `Bacon Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 30 
 		} 
 	},
@@ -1179,7 +1178,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `National Champagne Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		}
 	},
@@ -1187,7 +1186,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Universal Hour Of Peace`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		}
 	},
@@ -1195,7 +1194,7 @@ export const decemberEvents: IRepeatData[] = [
 		name: `New Year's Eve`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		} 
 	},
@@ -1203,7 +1202,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Make Up Your Mind Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		}
 	},
@@ -1211,7 +1210,7 @@ export const decemberEvents: IRepeatData[] = [
 		name:    `Leap Second Time Adjustment Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.december,
+			month: NATIVE_MONTHS.december,
 			day: 31 
 		}
 	},

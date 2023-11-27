@@ -1,13 +1,14 @@
 import {
-	RelativeOrder, RepeatMonth, RepeatPatternType 
+	RelativeOrder, RepeatPatternType
 } from '../../../models/pattern.js';
+import { NATIVE_MONTHS } from '../../../util/date.js';
 
 export const mayEvents = [
 	{
 		name:    `International Workers' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		}
 	},
@@ -15,7 +16,7 @@ export const mayEvents = [
 		name: `May Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		} 
 	},
@@ -23,7 +24,7 @@ export const mayEvents = [
 		name: `Global Love Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		} 
 	},
@@ -31,7 +32,7 @@ export const mayEvents = [
 		name: `School Principals' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		} 
 	},
@@ -39,7 +40,7 @@ export const mayEvents = [
 		name: `Law Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		} 
 	},
@@ -47,7 +48,7 @@ export const mayEvents = [
 		name:    `Silver Star Service Banner Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		}
 	},
@@ -55,14 +56,14 @@ export const mayEvents = [
 		name: `Melanoma Monday`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Chocolate Parfait Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		}
 	},
@@ -70,7 +71,7 @@ export const mayEvents = [
 		name:    `National Mother Goose Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		}
 	},
@@ -78,7 +79,7 @@ export const mayEvents = [
 		name: `National Loyalty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 1 
 		} 
 	},
@@ -86,7 +87,7 @@ export const mayEvents = [
 		name: `World Tuna Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 2 
 		} 
 	},
@@ -94,21 +95,21 @@ export const mayEvents = [
 		name: `National Foster Care Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Teacher Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name:    `National Life Insurance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 2 
 		}
 	},
@@ -116,7 +117,7 @@ export const mayEvents = [
 		name: `National Truffle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 2 
 		} 
 	},
@@ -124,14 +125,14 @@ export const mayEvents = [
 		name:    `National Interpreter Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `World Press Freedom Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		} 
 	},
@@ -139,14 +140,14 @@ export const mayEvents = [
 		name: `National Skilled Trades Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Montana Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		} 
 	},
@@ -154,7 +155,7 @@ export const mayEvents = [
 		name: `National Textiles Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		} 
 	},
@@ -162,14 +163,14 @@ export const mayEvents = [
 		name: `National San Architect Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Raspberry Popover Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		}
 	},
@@ -177,14 +178,14 @@ export const mayEvents = [
 		name: `National Bike To School Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Chocolate Custard Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		}
 	},
@@ -192,7 +193,7 @@ export const mayEvents = [
 		name: `National Paranormal Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		} 
 	},
@@ -200,7 +201,7 @@ export const mayEvents = [
 		name:    `National Two Different Colored Shoes Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		}
 	},
@@ -208,14 +209,14 @@ export const mayEvents = [
 		name: `National Specially`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Garden Meditation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		}
 	},
@@ -223,7 +224,7 @@ export const mayEvents = [
 		name: `National Lumpy Rug Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 3 
 		} 
 	},
@@ -231,14 +232,14 @@ export const mayEvents = [
 		name: `National Self`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `International Firefighters' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		}
 	},
@@ -246,14 +247,14 @@ export const mayEvents = [
 		name: `World Password Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `Bird Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		} 
 	},
@@ -261,7 +262,7 @@ export const mayEvents = [
 		name:    `National Weather Observers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		}
 	},
@@ -269,7 +270,7 @@ export const mayEvents = [
 		name:    `National Candied Orange Peel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		}
 	},
@@ -277,7 +278,7 @@ export const mayEvents = [
 		name:    `National Orange Juice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		}
 	},
@@ -285,7 +286,7 @@ export const mayEvents = [
 		name: `National Renewal Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		} 
 	},
@@ -293,7 +294,7 @@ export const mayEvents = [
 		name: `National Star Wars Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 4 
 		} 
 	},
@@ -301,21 +302,21 @@ export const mayEvents = [
 		name: `National Day Of Reason`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Day Of Prayer`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `African World Heritage Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		}
 	},
@@ -323,7 +324,7 @@ export const mayEvents = [
 		name:    `World Portuguese Language Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		}
 	},
@@ -331,7 +332,7 @@ export const mayEvents = [
 		name:    `International Day Of The Midwife`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		}
 	},
@@ -339,7 +340,7 @@ export const mayEvents = [
 		name:    `National Silence The Shame Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		}
 	},
@@ -347,14 +348,14 @@ export const mayEvents = [
 		name: `School Lunch Hero Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `Cinco De Mayo`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		} 
 	},
@@ -362,7 +363,7 @@ export const mayEvents = [
 		name: `National Astronaut Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		} 
 	},
@@ -370,7 +371,7 @@ export const mayEvents = [
 		name: `National Hoagie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		} 
 	},
@@ -378,7 +379,7 @@ export const mayEvents = [
 		name:    `National Totally Chipotle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		}
 	},
@@ -386,7 +387,7 @@ export const mayEvents = [
 		name: `National Cartoonists Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 5 
 		} 
 	},
@@ -394,14 +395,14 @@ export const mayEvents = [
 		name: `National Space Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `International No Diet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 6 
 		}
 	},
@@ -409,49 +410,49 @@ export const mayEvents = [
 		name: `National Fitness Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `Kentucky Derby`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `Free Comic Book Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Bombshells' Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Start Seeing Monarchs Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `Join Hands Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Crepe Suzette Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 6 
 		}
 	},
@@ -459,7 +460,7 @@ export const mayEvents = [
 		name: `National Beverage Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 6 
 		} 
 	},
@@ -467,7 +468,7 @@ export const mayEvents = [
 		name: `National Nurses Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 6 
 		} 
 	},
@@ -475,21 +476,21 @@ export const mayEvents = [
 		name: `National Homebrew Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Scrapbook Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Tourism Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 7 
 		} 
 	},
@@ -497,7 +498,7 @@ export const mayEvents = [
 		name:    `National Packaging Design Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 7 
 		}
 	},
@@ -505,7 +506,7 @@ export const mayEvents = [
 		name:    `National Barrier Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 7 
 		}
 	},
@@ -513,14 +514,14 @@ export const mayEvents = [
 		name: `National Lemonade Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Roast Leg  Of Lamb Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 7 
 		}
 	},
@@ -528,7 +529,7 @@ export const mayEvents = [
 		name: `National Paste Up Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 7 
 		} 
 	},
@@ -536,14 +537,14 @@ export const mayEvents = [
 		name:    `National Infertility Survival Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `World Ovarian Cancer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		} 
 	},
@@ -551,7 +552,7 @@ export const mayEvents = [
 		name:    `International Thalassaemia Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		}
 	},
@@ -559,7 +560,7 @@ export const mayEvents = [
 		name: `World Red Cross Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		} 
 	},
@@ -567,7 +568,7 @@ export const mayEvents = [
 		name:    `Time Of Remembrance And Reconciliation`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		}
 	},
@@ -575,7 +576,7 @@ export const mayEvents = [
 		name:    `National Student Nurse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		}
 	},
@@ -583,14 +584,14 @@ export const mayEvents = [
 		name: `National Women’s Checkup Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Have A Coke Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		} 
 	},
@@ -598,7 +599,7 @@ export const mayEvents = [
 		name:    `National Coconut Cream Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 8 
 		}
 	},
@@ -606,7 +607,7 @@ export const mayEvents = [
 		name:    `National Home Front Heroes Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		}
 	},
@@ -614,7 +615,7 @@ export const mayEvents = [
 		name:    `National Alphabet Magnet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		}
 	},
@@ -622,7 +623,7 @@ export const mayEvents = [
 		name: `Europe Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		} 
 	},
@@ -630,7 +631,7 @@ export const mayEvents = [
 		name: `National Sleepover Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		} 
 	},
@@ -638,7 +639,7 @@ export const mayEvents = [
 		name:    `National Butterscotch Brownie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		}
 	},
@@ -646,7 +647,7 @@ export const mayEvents = [
 		name: `National Moscato Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		} 
 	},
@@ -654,7 +655,7 @@ export const mayEvents = [
 		name:    `National Lost Sock Memorial Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 9 
 		}
 	},
@@ -662,7 +663,7 @@ export const mayEvents = [
 		name: `World Lupus Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 10 
 		} 
 	},
@@ -670,7 +671,7 @@ export const mayEvents = [
 		name: `National Washington Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 10 
 		} 
 	},
@@ -678,7 +679,7 @@ export const mayEvents = [
 		name:    `National Clean Up Your Room Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 10 
 		}
 	},
@@ -686,7 +687,7 @@ export const mayEvents = [
 		name: `National Lipid Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 10 
 		} 
 	},
@@ -694,14 +695,14 @@ export const mayEvents = [
 		name: `National Third Shift Workers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Shrimp Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 10 
 		} 
 	},
@@ -709,21 +710,21 @@ export const mayEvents = [
 		name: `National School Nurse Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Receptionists Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Eat What You Want Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 11 
 		}
 	},
@@ -731,7 +732,7 @@ export const mayEvents = [
 		name:    `National Foam Rolling Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 11 
 		}
 	},
@@ -739,7 +740,7 @@ export const mayEvents = [
 		name:    `National Twilight Zone Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 11 
 		}
 	},
@@ -747,7 +748,7 @@ export const mayEvents = [
 		name:    `National Sapphire Segulah Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		}
 	},
@@ -755,7 +756,7 @@ export const mayEvents = [
 		name:    `International Me/cfs Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		}
 	},
@@ -763,7 +764,7 @@ export const mayEvents = [
 		name:    `International Nurses Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		}
 	},
@@ -771,7 +772,7 @@ export const mayEvents = [
 		name:    `National Fibromyalgia Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		}
 	},
@@ -779,7 +780,7 @@ export const mayEvents = [
 		name:    `National Nutty Fudge Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		}
 	},
@@ -787,7 +788,7 @@ export const mayEvents = [
 		name: `National Odometer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		} 
 	},
@@ -795,7 +796,7 @@ export const mayEvents = [
 		name: `National Limerick Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 12 
 		} 
 	},
@@ -803,28 +804,28 @@ export const mayEvents = [
 		name:    `National Military Spouse Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name:    `National Provider Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `National Dog Mom's Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Crouton Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 13 
 		} 
 	},
@@ -832,33 +833,33 @@ export const mayEvents = [
 		name: `National Archery Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
-	// { name: `National Train Day`, pattern: { type: RepeatPatternType.absolute, month: RepeatMonth.in, day: 2016 } }, - Saturday closest to May 10th. Also no longer observed?
+	// { name: `National Train Day`, pattern: { type: RepeatPatternType.absolute, month: NATIVE_MONTHS.in, day: 2016 } }, - Saturday closest to May 10th. Also no longer observed?
 	{
 		name:      `National Miniature Golf Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
 			order: RelativeOrder.second,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
-	// { name: `National Babysitter’s Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.in } }, // saturday before mother's day
+	// { name: `National Babysitter’s Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.in } }, // saturday before mother's day
 	{
 		name:    `Cornelia De Lange Syndrome Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			order: RelativeOrder.second 
 		}
 	},
-	// { name: `National Birth Mother’s Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.may } }, // saturday before mother's day
+	// { name: `National Birth Mother’s Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.may } }, // saturday before mother's day
 	{
 		name: `Stamp Out Hunger Food Drive Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			order: RelativeOrder.second 
 		} 
 	},
@@ -866,7 +867,7 @@ export const mayEvents = [
 		name:    `National Fruit Cocktail Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 13 
 		}
 	},
@@ -874,7 +875,7 @@ export const mayEvents = [
 		name: `National Apple Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 13 
 		} 
 	},
@@ -882,7 +883,7 @@ export const mayEvents = [
 		name:    `National Frog Jumping Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 13 
 		}
 	},
@@ -890,7 +891,7 @@ export const mayEvents = [
 		name: `National Decency Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 14 
 		} 
 	},
@@ -898,14 +899,14 @@ export const mayEvents = [
 		name: `Mother's Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Buttermilk Biscuit Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 14 
 		}
 	},
@@ -913,7 +914,7 @@ export const mayEvents = [
 		name:    `National Underground America Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 14 
 		}
 	},
@@ -921,7 +922,7 @@ export const mayEvents = [
 		name:    `National Dance Like A Chicken Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 14 
 		}
 	},
@@ -929,7 +930,7 @@ export const mayEvents = [
 		name:    `Bring Flowers To Someone Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -937,7 +938,7 @@ export const mayEvents = [
 		name:    `International Kangaroo Care Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -945,7 +946,7 @@ export const mayEvents = [
 		name:    `International Day Of Families`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -953,7 +954,7 @@ export const mayEvents = [
 		name:    `National Nylon Stocking Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -961,7 +962,7 @@ export const mayEvents = [
 		name:    `National Chocolate Chip Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -969,7 +970,7 @@ export const mayEvents = [
 		name:    `Peace Officers Memorial Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 15 
 		}
 	},
@@ -977,7 +978,7 @@ export const mayEvents = [
 		name:    `National Classic Movie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -985,7 +986,7 @@ export const mayEvents = [
 		name:    `National Check Your Wipers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -993,7 +994,7 @@ export const mayEvents = [
 		name:    `International Day Of Living Together In Peace`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1001,7 +1002,7 @@ export const mayEvents = [
 		name:    `International Day Of Light`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1009,7 +1010,7 @@ export const mayEvents = [
 		name: `National Mimosa Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		} 
 	},
@@ -1017,7 +1018,7 @@ export const mayEvents = [
 		name: `National Barbecue Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		} 
 	},
@@ -1025,7 +1026,7 @@ export const mayEvents = [
 		name:    `National Do Something Good For Your Neighbor Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1033,7 +1034,7 @@ export const mayEvents = [
 		name:    `Honor Our Lgbt Elders Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1041,7 +1042,7 @@ export const mayEvents = [
 		name: `National Piercing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		} 
 	},
@@ -1049,7 +1050,7 @@ export const mayEvents = [
 		name:    `National Coquilles Saint Jacques Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1057,7 +1058,7 @@ export const mayEvents = [
 		name:    `National Biographer’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1065,7 +1066,7 @@ export const mayEvents = [
 		name: `National Sea Monkey Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		} 
 	},
@@ -1073,7 +1074,7 @@ export const mayEvents = [
 		name:    `National Love A Tree Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 16 
 		}
 	},
@@ -1081,7 +1082,7 @@ export const mayEvents = [
 		name:    `World Telecommunication And Information Society Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		}
 	},
@@ -1089,7 +1090,7 @@ export const mayEvents = [
 		name: `World Hypertension Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		} 
 	},
@@ -1097,7 +1098,7 @@ export const mayEvents = [
 		name: `National Idaho Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		} 
 	},
@@ -1105,7 +1106,7 @@ export const mayEvents = [
 		name:    `National Graduation Tassel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		}
 	},
@@ -1113,7 +1114,7 @@ export const mayEvents = [
 		name: `National Walnut Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		} 
 	},
@@ -1121,7 +1122,7 @@ export const mayEvents = [
 		name:    `National Cherry Cobbler Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		}
 	},
@@ -1129,7 +1130,7 @@ export const mayEvents = [
 		name: `National Pack Rat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 17 
 		} 
 	},
@@ -1137,7 +1138,7 @@ export const mayEvents = [
 		name:    `International Museum Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 18 
 		}
 	},
@@ -1145,7 +1146,7 @@ export const mayEvents = [
 		name:    `National Cheese Souffle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 18 
 		}
 	},
@@ -1153,7 +1154,7 @@ export const mayEvents = [
 		name:    `National No Dirty Dishes Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 18 
 		}
 	},
@@ -1161,7 +1162,7 @@ export const mayEvents = [
 		name:    `National Visit Your Relatives Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 18 
 		}
 	},
@@ -1169,7 +1170,7 @@ export const mayEvents = [
 		name:    `National Hiv Vaccine Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 18 
 		}
 	},
@@ -1177,14 +1178,14 @@ export const mayEvents = [
 		name: `Malcolm X Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `World Inflammatory Bowel Disease Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 19 
 		}
 	},
@@ -1192,28 +1193,28 @@ export const mayEvents = [
 		name: `Nascar Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Pizza Party Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Bike To Work Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Devil’s Food Cake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 19 
 		}
 	},
@@ -1221,7 +1222,7 @@ export const mayEvents = [
 		name: `National May Ray Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 19 
 		} 
 	},
@@ -1229,21 +1230,21 @@ export const mayEvents = [
 		name:    `National Defense Transportation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `National Endangered Species Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Sugarbee® Apple Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		}
 	},
@@ -1251,7 +1252,7 @@ export const mayEvents = [
 		name: `National Streaming Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		} 
 	},
@@ -1259,7 +1260,7 @@ export const mayEvents = [
 		name:    `International Red Sneakers Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		}
 	},
@@ -1267,7 +1268,7 @@ export const mayEvents = [
 		name: `World Bee Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		} 
 	},
@@ -1275,7 +1276,7 @@ export const mayEvents = [
 		name: `National Rescue Dog Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		} 
 	},
@@ -1283,7 +1284,7 @@ export const mayEvents = [
 		name: `World Metrology Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		} 
 	},
@@ -1291,7 +1292,7 @@ export const mayEvents = [
 		name:    `National Quiche Lorraine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		}
 	},
@@ -1299,7 +1300,7 @@ export const mayEvents = [
 		name:    `National Pick Strawberries Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		}
 	},
@@ -1307,7 +1308,7 @@ export const mayEvents = [
 		name:    `National Be A Millionaire Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 20 
 		}
 	},
@@ -1315,21 +1316,21 @@ export const mayEvents = [
 		name: `National Learn To Swim Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `Armed Forces Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `International Tea Day Un`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		}
 	},
@@ -1337,7 +1338,7 @@ export const mayEvents = [
 		name:    `World Day For Cultural Diversity`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		}
 	},
@@ -1345,14 +1346,14 @@ export const mayEvents = [
 		name:    `National Take Your Parents To The Playground Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `National Memo Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		} 
 	},
@@ -1360,7 +1361,7 @@ export const mayEvents = [
 		name:    `National Strawberries And Cream Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		}
 	},
@@ -1368,7 +1369,7 @@ export const mayEvents = [
 		name: `National Waitstaff Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		} 
 	},
@@ -1376,7 +1377,7 @@ export const mayEvents = [
 		name:    `National American Red Cross Founder’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 21 
 		}
 	},
@@ -1384,7 +1385,7 @@ export const mayEvents = [
 		name:    `International Being You Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		}
 	},
@@ -1392,7 +1393,7 @@ export const mayEvents = [
 		name:    `International Day For Biological Diversity`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		}
 	},
@@ -1400,7 +1401,7 @@ export const mayEvents = [
 		name:    `National Craft Distillery Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		}
 	},
@@ -1408,7 +1409,7 @@ export const mayEvents = [
 		name: `World Paloma Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		} 
 	},
@@ -1416,7 +1417,7 @@ export const mayEvents = [
 		name: `National Solitaire Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		} 
 	},
@@ -1424,7 +1425,7 @@ export const mayEvents = [
 		name: `World Goth Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		} 
 	},
@@ -1432,7 +1433,7 @@ export const mayEvents = [
 		name:    `National Vanilla Pudding Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		}
 	},
@@ -1440,7 +1441,7 @@ export const mayEvents = [
 		name:    `National Buy A Musical Instrument Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		}
 	},
@@ -1448,7 +1449,7 @@ export const mayEvents = [
 		name: `National Maritime Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 22 
 		} 
 	},
@@ -1456,7 +1457,7 @@ export const mayEvents = [
 		name:    `International Day To End Obstetric Fistula`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 23 
 		}
 	},
@@ -1464,7 +1465,7 @@ export const mayEvents = [
 		name: `National Taffy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 23 
 		} 
 	},
@@ -1472,7 +1473,7 @@ export const mayEvents = [
 		name:    `National Lucky Penny Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 23 
 		}
 	},
@@ -1480,7 +1481,7 @@ export const mayEvents = [
 		name:    `National Yucatan Shrimp Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		}
 	},
@@ -1488,7 +1489,7 @@ export const mayEvents = [
 		name: `World Schizophrenia Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		} 
 	},
@@ -1496,7 +1497,7 @@ export const mayEvents = [
 		name: `National Wyoming Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		} 
 	},
@@ -1504,7 +1505,7 @@ export const mayEvents = [
 		name: `Brother's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		} 
 	},
@@ -1512,7 +1513,7 @@ export const mayEvents = [
 		name:    `Aviation Maintenance Technician Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		}
 	},
@@ -1520,14 +1521,14 @@ export const mayEvents = [
 		name:    `Emergency Medical Services For Children Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `National Escargot Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		} 
 	},
@@ -1535,7 +1536,7 @@ export const mayEvents = [
 		name:    `National Scavenger Hunt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 24 
 		}
 	},
@@ -1543,7 +1544,7 @@ export const mayEvents = [
 		name:    `International Plastic Free Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		}
 	},
@@ -1551,7 +1552,7 @@ export const mayEvents = [
 		name: `World Thyroid Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		} 
 	},
@@ -1559,7 +1560,7 @@ export const mayEvents = [
 		name: `Geek Pride Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		} 
 	},
@@ -1567,7 +1568,7 @@ export const mayEvents = [
 		name: `Towel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		} 
 	},
@@ -1575,7 +1576,7 @@ export const mayEvents = [
 		name: `National Wine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		} 
 	},
@@ -1583,14 +1584,14 @@ export const mayEvents = [
 		name: `National Brown`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Tap Dance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		} 
 	},
@@ -1598,7 +1599,7 @@ export const mayEvents = [
 		name:    `National Missing Children’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 25 
 		}
 	},
@@ -1606,7 +1607,7 @@ export const mayEvents = [
 		name:    `National Paper Airplane Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 26 
 		}
 	},
@@ -1614,21 +1615,21 @@ export const mayEvents = [
 		name: `National Road Trip Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Cooler Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Blueberry Cheesecake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 26 
 		}
 	},
@@ -1636,14 +1637,14 @@ export const mayEvents = [
 		name: `National Don’t Fry Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name: `National Grape Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 27 
 		} 
 	},
@@ -1651,7 +1652,7 @@ export const mayEvents = [
 		name:    `National Grape Popsicle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 27 
 		}
 	},
@@ -1659,7 +1660,7 @@ export const mayEvents = [
 		name:    `National Cellophane Tape Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 27 
 		}
 	},
@@ -1667,14 +1668,14 @@ export const mayEvents = [
 		name: `National Family Fun Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Beef Burger Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 28 
 		}
 	},
@@ -1682,7 +1683,7 @@ export const mayEvents = [
 		name: `National Hamburger Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 28 
 		} 
 	},
@@ -1690,7 +1691,7 @@ export const mayEvents = [
 		name: `National Brisket Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 28 
 		} 
 	},
@@ -1698,7 +1699,7 @@ export const mayEvents = [
 		name: `National 529 Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 29 
 		} 
 	},
@@ -1706,7 +1707,7 @@ export const mayEvents = [
 		name:    `International Day Of Un Peacekeepers`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 29 
 		}
 	},
@@ -1714,7 +1715,7 @@ export const mayEvents = [
 		name: `National Coq Au Vin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 29 
 		} 
 	},
@@ -1722,7 +1723,7 @@ export const mayEvents = [
 		name: `National Paperclip Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 29 
 		} 
 	},
@@ -1730,14 +1731,14 @@ export const mayEvents = [
 		name: `Memorial Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `World Multiple Sclerosis Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		}
 	},
@@ -1745,7 +1746,7 @@ export const mayEvents = [
 		name: `National Creativity Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		} 
 	},
@@ -1753,7 +1754,7 @@ export const mayEvents = [
 		name: `Loomis Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		} 
 	},
@@ -1761,7 +1762,7 @@ export const mayEvents = [
 		name: `National Mint Julep Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		} 
 	},
@@ -1769,7 +1770,7 @@ export const mayEvents = [
 		name:    `National Hole In My Bucket Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		}
 	},
@@ -1777,7 +1778,7 @@ export const mayEvents = [
 		name:    `National Water A Flower Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 30 
 		}
 	},
@@ -1785,7 +1786,7 @@ export const mayEvents = [
 		name: `World Parrot Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		} 
 	},
@@ -1793,7 +1794,7 @@ export const mayEvents = [
 		name: `World No Tobacco Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		} 
 	},
@@ -1801,7 +1802,7 @@ export const mayEvents = [
 		name: `National Utah Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		} 
 	},
@@ -1809,7 +1810,7 @@ export const mayEvents = [
 		name:    `Necrotizing Fasciitis Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		}
 	},
@@ -1817,7 +1818,7 @@ export const mayEvents = [
 		name: `National Smile Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		} 
 	},
@@ -1825,7 +1826,7 @@ export const mayEvents = [
 		name:    `National Autonomous Vehicle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		}
 	},
@@ -1833,21 +1834,21 @@ export const mayEvents = [
 		name: `National Flip Flop Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		} 
 	},
 	{
 		name:    `National Senior Health & Fitness Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.may 
+			month: NATIVE_MONTHS.may 
 		}
 	},
 	{
 		name: `National Macaroon Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		} 
 	},
@@ -1855,7 +1856,7 @@ export const mayEvents = [
 		name:    `National Speak In Complete Sentences Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		}
 	},
@@ -1863,7 +1864,7 @@ export const mayEvents = [
 		name:    `National Save Your Hearing Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.may,
+			month: NATIVE_MONTHS.may,
 			day: 31 
 		}
 	},

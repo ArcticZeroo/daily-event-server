@@ -1,29 +1,30 @@
 import {
 	IRepeatData,
 	RelativeOrder,
-	RepeatMonth,
 	RepeatPatternType
 } from '../../../models/pattern.js';
-import { NATIVE_DAYS_OF_WEEK } from '../../../util/date.js';
+import {
+	NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS 
+} from '../../../util/date.js';
 
 export const februaryEvents: IRepeatData[] = [
 	{
 		name:    `National Dark Chocolate Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
 	// {
 	// 	name:    `National Girls And Women In Sports Day`,
-	// 	pattern: { type: RepeatPatternType.floating, month: RepeatMonth.february }
+	// 	pattern: { type: RepeatPatternType.floating, month: NATIVE_MONTHS.february }
 	// },
 	{
 		name:    `National Texas Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
@@ -31,7 +32,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Get Up Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
@@ -39,7 +40,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Baked Alaska Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
@@ -47,7 +48,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Serpent Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
@@ -55,7 +56,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Freedom Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 1 
 		}
 	},
@@ -63,7 +64,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Optimist Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.first
 		}
@@ -72,7 +73,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tater Tot Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 2 
 		}
 	},
@@ -80,7 +81,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Heavenly Hash Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 2 
 		}
 	},
@@ -88,7 +89,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Groundhog Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 2 
 		}
 	},
@@ -96,7 +97,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Four Chaplains Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 3 
 		}
 	},
@@ -104,7 +105,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Bubble Gum Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
@@ -113,7 +114,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Missing Persons Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 3 
 		}
 	},
@@ -121,7 +122,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Women Physicians Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 3 
 		}
 	},
@@ -129,7 +130,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Wear Red Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
@@ -138,7 +139,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Carrot Cake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 3 
 		}
 	},
@@ -146,7 +147,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National The Day The Music Died Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 3 
 		}
 	},
@@ -154,7 +155,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Ice Cream For Breakfast Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.first
 		}
@@ -163,7 +164,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Hemp Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 4 
 		}
 	},
@@ -171,7 +172,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Homemade Soup Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 4 
 		}
 	},
@@ -179,7 +180,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Create A Vacuum Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 4 
 		}
 	},
@@ -187,7 +188,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Thank A Mail Carrier Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 4 
 		}
 	},
@@ -195,7 +196,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `World Nutella Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 5 
 		}
 	},
@@ -203,7 +204,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Shower With A Friend Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 5 
 		}
 	},
@@ -211,7 +212,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Weatherperson’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 5 
 		}
 	},
@@ -219,7 +220,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Chopsticks Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 6 
 		}
 	},
@@ -227,7 +228,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Frozen Yogurt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 6 
 		}
 	},
@@ -235,16 +236,16 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Lame Duck Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 6 
 		}
 	},
-	// { name: `Safer Internet Day U.S.`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.february } }, // Changes
+	// { name: `Safer Internet Day U.S.`, pattern: { type: RepeatPatternType.floating, month: NATIVE_MONTHS.february } }, // Changes
 	{
 		name:    `National Periodic Table Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 7 
 		}
 	},
@@ -252,7 +253,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Fettuccine Alfredo Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 7 
 		}
 	},
@@ -260,7 +261,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Send A Card To A Friend Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 7 
 		}
 	},
@@ -268,7 +269,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Iowa Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 8 
 		}
 	},
@@ -276,7 +277,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Kite Flying Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 8 
 		}
 	},
@@ -284,7 +285,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Boy Scouts Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 8 
 		}
 	},
@@ -292,7 +293,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cut The Cord Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 9 
 		}
 	},
@@ -300,7 +301,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Giving Hearts Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.second
 		}
@@ -309,7 +310,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Pizza Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 9 
 		}
 	},
@@ -317,7 +318,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Bagel And Lox Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 9 
 		}
 	},
@@ -325,7 +326,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Toothache Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 9 
 		}
 	},
@@ -333,7 +334,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Home Warranty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 10 
 		}
 	},
@@ -341,7 +342,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cream Cheese Brownie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 10 
 		}
 	},
@@ -349,7 +350,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Umbrella Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 10 
 		}
 	},
@@ -357,7 +358,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `International Snowmobile Ride Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.second
 		}
@@ -366,7 +367,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Global Movie Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.second
 		}
@@ -375,7 +376,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Inventors' Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -383,7 +384,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Peppermint Patty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -391,7 +392,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Shut-In Visitation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -399,7 +400,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National White Shirt Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -407,7 +408,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Don’t Cry Over Spilled Milk Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -415,7 +416,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Make A Friend Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 11 
 		}
 	},
@@ -423,7 +424,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:     `Superbowl`,
 		pattern:  {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday,
 			order:     RelativeOrder.second
 		},
@@ -441,7 +442,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Pork Rind Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday,
 			order:     RelativeOrder.second
 		}
@@ -450,7 +451,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Plum Pudding Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 12 
 		}
 	},
@@ -458,7 +459,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Galentine's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 13 
 		}
 	},
@@ -466,7 +467,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cheddar Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 13 
 		}
 	},
@@ -474,7 +475,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tortellini Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 13 
 		}
 	},
@@ -482,7 +483,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Clean Out Your Computer Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.monday,
 			order:     RelativeOrder.second
 		}
@@ -491,7 +492,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cream-Filled Chocolates Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 14 
 		}
 	},
@@ -499,7 +500,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Valentine's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 14 
 		}
 	},
@@ -507,7 +508,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Ferris Wheel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 14 
 		}
 	},
@@ -515,7 +516,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Organ Donor Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 14 
 		}
 	},
@@ -523,7 +524,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `International Angelman Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 15 
 		}
 	},
@@ -531,7 +532,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Wisconsin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 15 
 		}
 	},
@@ -539,7 +540,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Flag Of Canada Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 15 
 		}
 	},
@@ -547,7 +548,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Singles Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 15 
 		}
 	},
@@ -555,7 +556,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Gumdrop Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 15 
 		}
 	},
@@ -563,7 +564,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Do A Grouch A Favor Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 16 
 		}
 	},
@@ -571,7 +572,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Almond Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 16 
 		}
 	},
@@ -579,7 +580,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Caregivers Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			order:     RelativeOrder.third,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
@@ -588,7 +589,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cabbage Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 17 
 		}
 	},
@@ -596,7 +597,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Random Acts Of Kindness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 17 
 		}
 	},
@@ -608,7 +609,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Caregivers Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
@@ -617,7 +618,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cabbage Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 17 
 		}
 	},
@@ -625,7 +626,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Random Acts Of Kindness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 17 
 		}
 	},
@@ -633,7 +634,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Battery Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 18 
 		}
 	},
@@ -641,7 +642,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Drink Wine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 18 
 		}
 	},
@@ -649,7 +650,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Crab Stuffed Flounder Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 18 
 		}
 	},
@@ -657,7 +658,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Red Sock Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.third
 		}
@@ -666,7 +667,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Arabian Horse Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 19 
 		}
 	},
@@ -674,7 +675,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Vet Girls Rise Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 19 
 		}
 	},
@@ -682,7 +683,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Lash Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 19 
 		}
 	},
@@ -690,7 +691,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Chocolate Mint Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 19 
 		}
 	},
@@ -698,7 +699,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Leadership Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 20 
 		}
 	},
@@ -706,7 +707,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Comfy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 20 
 		}
 	},
@@ -714,7 +715,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Muffin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 20 
 		}
 	},
@@ -722,7 +723,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Love Your Pet Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 20 
 		}
 	},
@@ -730,7 +731,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cherry Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 20 
 		}
 	},
@@ -738,27 +739,27 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Presidents Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.monday,
 			order:     RelativeOrder.third
 		}
 	},
-	// { name: `Fastnacht Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.february } }, // "What the hell? How do I figure out ""46 days before easter"". Wtf?"
-	// { name: `Paczki Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.february } },
+	// { name: `Fastnacht Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.february } }, // "What the hell? How do I figure out ""46 days before easter"". Wtf?"
+	// { name: `Paczki Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.february } },
 	{
 		name:    `National Grain-Free Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 21 
 		}
 	},
-	// { name: `Fat Tuesday`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.february } }, // Day before ash Wednesday
+	// { name: `Fat Tuesday`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.february } }, // Day before ash Wednesday
 	{
 		name:    `National Sticky Bun Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 21 
 		}
 	},
@@ -766,16 +767,16 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Supermarket Employee Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 22 
 		}
 	},
-	// { name: `Ash Wednesday`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.february } }, // 46 days before easter
+	// { name: `Ash Wednesday`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.february } }, // 46 days before easter
 	{
 		name:    `National California Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 22 
 		}
 	},
@@ -783,7 +784,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Cook A Sweet Potato Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 22 
 		}
 	},
@@ -791,7 +792,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Margarita Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 22 
 		}
 	},
@@ -799,7 +800,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tile Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 23 
 		}
 	},
@@ -807,7 +808,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Toast Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.last
 		}
@@ -816,7 +817,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Chili Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.fourth
 		}
@@ -825,7 +826,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Dog Biscuit Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 23 
 		}
 	},
@@ -833,16 +834,16 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Banana Bread Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 23 
 		}
 	},
-	// { name: `National Tartar Sauce Day`, pattern: { type: RepeatPatternType.relative, month: RepeatMonth.february } }, // Friday after lent????
+	// { name: `National Tartar Sauce Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.february } }, // Friday after lent????
 	{
 		name:    `National Skip The Straw Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.fourth
 		}
@@ -851,7 +852,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tortilla Chip Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 24 
 		}
 	},
@@ -859,7 +860,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Clam Chowder Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 25 
 		}
 	},
@@ -867,7 +868,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Chocolate Covered Nut Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 25 
 		}
 	},
@@ -875,7 +876,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Letter To An Elder Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 26 
 		}
 	},
@@ -883,7 +884,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Set A Good Example Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 26 
 		}
 	},
@@ -891,7 +892,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tell A Fairy Tale Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 26 
 		}
 	},
@@ -899,7 +900,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Pistachio Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 26 
 		}
 	},
@@ -907,7 +908,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `Anosmia Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 27 
 		}
 	},
@@ -915,7 +916,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Retro Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 27 
 		}
 	},
@@ -923,7 +924,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Polar Bear Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 27 
 		}
 	},
@@ -931,7 +932,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Strawberry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 27 
 		}
 	},
@@ -939,15 +940,15 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Kahlua Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 27 
 		}
 	},
-	// { name: `National Pancake Day`, pattern: { type: RepeatPatternType.floating, month: RepeatMonth.february } },
+	// { name: `National Pancake Day`, pattern: { type: RepeatPatternType.floating, month: NATIVE_MONTHS.february } },
 	{
 		pattern:  {
 			type:  RepeatPatternType.absolute,
-			month: RepeatMonth.march,
+			month: NATIVE_MONTHS.march,
 			day:   1,
 		},
 		children: [
@@ -965,7 +966,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Chocolate Souffle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 28 
 		}
 	},
@@ -973,7 +974,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `World Spay Day`,
 		pattern: {
 			type:      RepeatPatternType.relative,
-			month:     RepeatMonth.february,
+			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday,
 			order:     RelativeOrder.last
 		}
@@ -982,7 +983,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Tooth Fairy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 28 
 		}
 	},
@@ -990,7 +991,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Floral Design Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 28 
 		}
 	},
@@ -998,7 +999,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Public Sleeping Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 28 
 		}
 	},
@@ -1006,7 +1007,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Time Refund Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 29 
 		}
 	},
@@ -1014,7 +1015,7 @@ export const februaryEvents: IRepeatData[] = [
 		name:    `National Leap Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.february,
+			month: NATIVE_MONTHS.february,
 			day: 29 
 		}
 	},

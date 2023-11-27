@@ -1,13 +1,14 @@
 import {
-	RelativeOrder, RepeatMonth, RepeatPatternType
+	RelativeOrder, RepeatPatternType
 } from '../../../models/pattern.js';
+import { NATIVE_MONTHS } from '../../../util/date.js';
 
 export const octoberEvents = [
 	{
 		name: `World Sake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		} 
 	},
@@ -15,7 +16,7 @@ export const octoberEvents = [
 		name:    `National Fire Pup Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		}
 	},
@@ -23,7 +24,7 @@ export const octoberEvents = [
 		name:    `National Pumpkin Spice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		}
 	},
@@ -31,7 +32,7 @@ export const octoberEvents = [
 		name:    `National Green City Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		}
 	},
@@ -39,7 +40,7 @@ export const octoberEvents = [
 		name:    `National Black Dog Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		}
 	},
@@ -47,7 +48,7 @@ export const octoberEvents = [
 		name: `National Hair Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		} 
 	},
@@ -55,7 +56,7 @@ export const octoberEvents = [
 		name:    `National Homemade Cookies Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 1 
 		}
 	},
@@ -63,7 +64,7 @@ export const octoberEvents = [
 		name:    `National Custodial Worker's Recognition Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 2 
 		}
 	},
@@ -71,14 +72,14 @@ export const octoberEvents = [
 		name: `National Child Health Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Name Your Car Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 2 
 		}
 	},
@@ -86,7 +87,7 @@ export const octoberEvents = [
 		name:    `National Fried Scallops Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 2 
 		}
 	},
@@ -94,14 +95,14 @@ export const octoberEvents = [
 		name: `National Consignment Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Produce Misting Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 2 
 		}
 	},
@@ -109,7 +110,7 @@ export const octoberEvents = [
 		name:    `National Smarties Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 2 
 		}
 	},
@@ -117,7 +118,7 @@ export const octoberEvents = [
 		name: `National Techies Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 3 
 		} 
 	},
@@ -125,7 +126,7 @@ export const octoberEvents = [
 		name:    `National Boyfriend Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 3 
 		}
 	},
@@ -133,14 +134,14 @@ export const octoberEvents = [
 		name: `National Fruit At Work Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `World Temperance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 3 
 		} 
 	},
@@ -148,7 +149,7 @@ export const octoberEvents = [
 		name: `National Taco Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 4 
 		} 
 	},
@@ -156,7 +157,7 @@ export const octoberEvents = [
 		name:    `National Golf Lover's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 4 
 		}
 	},
@@ -164,7 +165,7 @@ export const octoberEvents = [
 		name: `National Vodka Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 4 
 		} 
 	},
@@ -172,28 +173,28 @@ export const octoberEvents = [
 		name: `National Walk To School Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Pumpkin Seed Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Coffee With A Cop Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `National Cinnamon Bun Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 4 
 		}
 	},
@@ -201,14 +202,14 @@ export const octoberEvents = [
 		name: `Random Acts Of Poetry Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Do Something Nice Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 5 
 		}
 	},
@@ -216,7 +217,7 @@ export const octoberEvents = [
 		name:    `National Get Funky Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 5 
 		}
 	},
@@ -224,7 +225,7 @@ export const octoberEvents = [
 		name:    `National Rhode Island Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 5 
 		}
 	},
@@ -232,7 +233,7 @@ export const octoberEvents = [
 		name:    `National Apple Betty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 5 
 		}
 	},
@@ -240,14 +241,14 @@ export const octoberEvents = [
 		name: `World College Radio Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Coaches Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 6 
 		} 
 	},
@@ -255,7 +256,7 @@ export const octoberEvents = [
 		name:    `National Orange Wine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 6 
 		}
 	},
@@ -263,14 +264,14 @@ export const octoberEvents = [
 		name: `National Body Language Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Plus Size Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 6 
 		}
 	},
@@ -278,21 +279,21 @@ export const octoberEvents = [
 		name: `National Manufacturing Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `World Smile  Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Noodle Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 6 
 		} 
 	},
@@ -300,14 +301,14 @@ export const octoberEvents = [
 		name: `National German`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Mad Hatter Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 6 
 		}
 	},
@@ -315,7 +316,7 @@ export const octoberEvents = [
 		name: `National Propane Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		} 
 	},
@@ -323,7 +324,7 @@ export const octoberEvents = [
 		name:    `National Trigeminal Neuralgia Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		}
 	},
@@ -331,7 +332,7 @@ export const octoberEvents = [
 		name:    `National Chocolate Covered Pretzel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		}
 	},
@@ -339,7 +340,7 @@ export const octoberEvents = [
 		name:    `National Inner Beauty Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		}
 	},
@@ -347,7 +348,7 @@ export const octoberEvents = [
 		name:    `National Led Light Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		}
 	},
@@ -355,7 +356,7 @@ export const octoberEvents = [
 		name: `National Frappe Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 7 
 		} 
 	},
@@ -363,14 +364,14 @@ export const octoberEvents = [
 		name: `International Off`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `American Touch Tag Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 8 
 		}
 	},
@@ -378,7 +379,7 @@ export const octoberEvents = [
 		name:    `National Fluffernutter Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 8 
 		}
 	},
@@ -386,7 +387,7 @@ export const octoberEvents = [
 		name: `National Pierogi Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 8 
 		} 
 	},
@@ -394,21 +395,21 @@ export const octoberEvents = [
 		name: `Clergy Appreciation Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Goe Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Hero Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 8 
 		} 
 	},
@@ -416,7 +417,7 @@ export const octoberEvents = [
 		name:    `National Leif Erikson Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 9 
 		}
 	},
@@ -424,14 +425,14 @@ export const octoberEvents = [
 		name: `National Pro`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Moldy Cheese Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 9 
 		}
 	},
@@ -439,35 +440,35 @@ export const octoberEvents = [
 		name: `National Online Bank Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Kick Butt Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `Native American Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `Columbus Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `Pans/pandas Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 9 
 		}
 	},
@@ -475,7 +476,7 @@ export const octoberEvents = [
 		name:    `National Angel Food Cake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		}
 	},
@@ -483,7 +484,7 @@ export const octoberEvents = [
 		name:    `National Cake Decorating Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		}
 	},
@@ -491,7 +492,7 @@ export const octoberEvents = [
 		name:    `National Handbag Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		}
 	},
@@ -499,7 +500,7 @@ export const octoberEvents = [
 		name:    `World Mental Health Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		}
 	},
@@ -507,7 +508,7 @@ export const octoberEvents = [
 		name:    `National Walk To A Park Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		}
 	},
@@ -515,7 +516,7 @@ export const octoberEvents = [
 		name: `National Metric Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 10 
 		} 
 	},
@@ -523,14 +524,14 @@ export const octoberEvents = [
 		name: `National Curves Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `International Day Of The Girl Child`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 11 
 		}
 	},
@@ -538,21 +539,21 @@ export const octoberEvents = [
 		name:    `National Take Your Parents To Lunch Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `National Fossil Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Coming Out Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 11 
 		}
 	},
@@ -560,7 +561,7 @@ export const octoberEvents = [
 		name:    `National Sausage Pizza Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 11 
 		}
 	},
@@ -568,7 +569,7 @@ export const octoberEvents = [
 		name:    `General Pulaski Memorial Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 11 
 		}
 	},
@@ -576,28 +577,28 @@ export const octoberEvents = [
 		name:    `National Bring Your Teddy Bear To Work/school Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `National Stop Bullying Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Emergency Nurse's Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `National Farmer's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 12 
 		}
 	},
@@ -605,7 +606,7 @@ export const octoberEvents = [
 		name: `National Gumbo Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 12 
 		} 
 	},
@@ -613,7 +614,7 @@ export const octoberEvents = [
 		name:    `National Savings Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 12 
 		}
 	},
@@ -621,14 +622,14 @@ export const octoberEvents = [
 		name: `World Sight Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Vermont Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 12 
 		}
 	},
@@ -636,7 +637,7 @@ export const octoberEvents = [
 		name:    `National Freethought Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 12 
 		}
 	},
@@ -644,7 +645,7 @@ export const octoberEvents = [
 		name:    `Metastatic Breast Cancer Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 13 
 		}
 	},
@@ -652,7 +653,7 @@ export const octoberEvents = [
 		name: `National No Bra Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 13 
 		} 
 	},
@@ -660,7 +661,7 @@ export const octoberEvents = [
 		name:    `National Yorkshire Pudding Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 13 
 		}
 	},
@@ -668,7 +669,7 @@ export const octoberEvents = [
 		name:    `National Train Your Brain Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 13 
 		}
 	},
@@ -676,7 +677,7 @@ export const octoberEvents = [
 		name: `Navy Birthday`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 13 
 		} 
 	},
@@ -684,7 +685,7 @@ export const octoberEvents = [
 		name:    `National Real Sugar Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 14 
 		}
 	},
@@ -692,21 +693,21 @@ export const octoberEvents = [
 		name: `I Love Yarn Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Motorcycle Ride Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Dessert Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 14 
 		}
 	},
@@ -714,7 +715,7 @@ export const octoberEvents = [
 		name:    `Be Bald And Be Free Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 14 
 		}
 	},
@@ -722,21 +723,21 @@ export const octoberEvents = [
 		name: `National Chess Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Costume Swap Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Shawarma Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -744,14 +745,14 @@ export const octoberEvents = [
 		name: `Global Handwashing Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Aesthetician Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -759,7 +760,7 @@ export const octoberEvents = [
 		name:    `National Cheese Curd Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -767,7 +768,7 @@ export const octoberEvents = [
 		name:    `National Latino Aids Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -775,7 +776,7 @@ export const octoberEvents = [
 		name:    `National I Love Lucy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -783,7 +784,7 @@ export const octoberEvents = [
 		name:    `National Pregnancy And Infant Loss Remembrance Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -791,7 +792,7 @@ export const octoberEvents = [
 		name:    `White Cane Safety Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		}
 	},
@@ -799,7 +800,7 @@ export const octoberEvents = [
 		name: `National Grouch Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 15 
 		} 
 	},
@@ -807,7 +808,7 @@ export const octoberEvents = [
 		name: `National Sports Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		} 
 	},
@@ -815,7 +816,7 @@ export const octoberEvents = [
 		name:    `National Liqueur Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		}
 	},
@@ -823,14 +824,14 @@ export const octoberEvents = [
 		name:    `National Clean Your Virtual Desktop Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `World Food Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		} 
 	},
@@ -838,7 +839,7 @@ export const octoberEvents = [
 		name: `Global Cat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		} 
 	},
@@ -846,7 +847,7 @@ export const octoberEvents = [
 		name:    `Department Store Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		}
 	},
@@ -854,7 +855,7 @@ export const octoberEvents = [
 		name:    `National Dictionary Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		}
 	},
@@ -862,7 +863,7 @@ export const octoberEvents = [
 		name: `National Boss’s Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 16 
 		} 
 	},
@@ -870,14 +871,14 @@ export const octoberEvents = [
 		name:    `National Pharmacy Technician Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `National Edge Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 17 
 		} 
 	},
@@ -885,7 +886,7 @@ export const octoberEvents = [
 		name: `Black Poetry Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 17 
 		} 
 	},
@@ -893,14 +894,14 @@ export const octoberEvents = [
 		name: `National Mulligan Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Pasta Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 17 
 		} 
 	},
@@ -908,14 +909,14 @@ export const octoberEvents = [
 		name: `Pro`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `International Legging Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 18 
 		}
 	},
@@ -923,7 +924,7 @@ export const octoberEvents = [
 		name:    `National Exascale Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 18 
 		}
 	},
@@ -931,28 +932,28 @@ export const octoberEvents = [
 		name: `Bra Day Usa`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National No Beard Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `Medical Assistants Recognition Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `National Chocolate Cupcake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 18 
 		}
 	},
@@ -960,35 +961,35 @@ export const octoberEvents = [
 		name: `Hagfish Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `Support Your Local Chamber Of Commerce`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `International Credit Union Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `Get To Know Your Customers Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `National Kentucky Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 19 
 		}
 	},
@@ -996,7 +997,7 @@ export const octoberEvents = [
 		name:    `National Seafood Bisque Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 19 
 		}
 	},
@@ -1004,7 +1005,7 @@ export const octoberEvents = [
 		name:    `National Lgbt Center Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 19 
 		}
 	},
@@ -1012,7 +1013,7 @@ export const octoberEvents = [
 		name:    `International Mastocytosis & Mast Cell Disease Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1020,7 +1021,7 @@ export const octoberEvents = [
 		name:    `National Chicken And Waffles Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1028,7 +1029,7 @@ export const octoberEvents = [
 		name:    `International Day Of The Air Traffic Controller`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1036,7 +1037,7 @@ export const octoberEvents = [
 		name:    `International Chefs Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1044,7 +1045,7 @@ export const octoberEvents = [
 		name:    `National Youth Confidence Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1052,7 +1053,7 @@ export const octoberEvents = [
 		name:    `National Brandied Fruit Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 20 
 		}
 	},
@@ -1060,21 +1061,21 @@ export const octoberEvents = [
 		name: `National Mammography Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Get Smart About Credit Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `National Apple Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 21 
 		} 
 	},
@@ -1082,7 +1083,7 @@ export const octoberEvents = [
 		name:    `Back To The Future Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 21 
 		}
 	},
@@ -1090,14 +1091,14 @@ export const octoberEvents = [
 		name:    `National Whole Hog Barbecue Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name:    `National Witch Hazel Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 21 
 		}
 	},
@@ -1105,7 +1106,7 @@ export const octoberEvents = [
 		name:    `National Reptile Awareness Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 21 
 		}
 	},
@@ -1113,7 +1114,7 @@ export const octoberEvents = [
 		name:    `National Pumpkin Cheesecake Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 21 
 		}
 	},
@@ -1121,14 +1122,14 @@ export const octoberEvents = [
 		name: `National Sweetest Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Make A Dog's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 22 
 		}
 	},
@@ -1136,14 +1137,14 @@ export const octoberEvents = [
 		name: `National Mother`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Color Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 22 
 		} 
 	},
@@ -1151,7 +1152,7 @@ export const octoberEvents = [
 		name: `National Nut Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 22 
 		} 
 	},
@@ -1159,7 +1160,7 @@ export const octoberEvents = [
 		name:    `National Horror Movie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		}
 	},
@@ -1167,7 +1168,7 @@ export const octoberEvents = [
 		name:    `National Boston Cream Pie Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		}
 	},
@@ -1175,7 +1176,7 @@ export const octoberEvents = [
 		name:    `Swallows Depart From San Juan Capistrano Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		}
 	},
@@ -1183,7 +1184,7 @@ export const octoberEvents = [
 		name: `National Mole Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		} 
 	},
@@ -1191,7 +1192,7 @@ export const octoberEvents = [
 		name:    `National Tv Talk Show Host Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		}
 	},
@@ -1199,7 +1200,7 @@ export const octoberEvents = [
 		name: `Ipod Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 23 
 		} 
 	},
@@ -1207,7 +1208,7 @@ export const octoberEvents = [
 		name:    `National Bologna Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 24 
 		}
 	},
@@ -1215,7 +1216,7 @@ export const octoberEvents = [
 		name: `United Nations Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 24 
 		} 
 	},
@@ -1223,7 +1224,7 @@ export const octoberEvents = [
 		name: `National Food Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 24 
 		} 
 	},
@@ -1231,7 +1232,7 @@ export const octoberEvents = [
 		name:    `National Merri Music Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		}
 	},
@@ -1239,7 +1240,7 @@ export const octoberEvents = [
 		name:    `World Spina Bifida And Hydrocepholas Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		}
 	},
@@ -1247,7 +1248,7 @@ export const octoberEvents = [
 		name:    `National Greasy Foods Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		}
 	},
@@ -1255,7 +1256,7 @@ export const octoberEvents = [
 		name: `Sourest Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		} 
 	},
@@ -1263,7 +1264,7 @@ export const octoberEvents = [
 		name:    `International Artist's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		}
 	},
@@ -1271,7 +1272,7 @@ export const octoberEvents = [
 		name:    `Chucky, The Notorious Killer Doll Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 25 
 		} 
 	},
@@ -1279,7 +1280,7 @@ export const octoberEvents = [
 		name:    `National Chicken Fried Steak Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1287,7 +1288,7 @@ export const octoberEvents = [
 		name:    `National Financial Crime Fighter Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1295,7 +1296,7 @@ export const octoberEvents = [
 		name:    `National Tennessee Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1303,7 +1304,7 @@ export const octoberEvents = [
 		name: `National Mule Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		} 
 	},
@@ -1311,7 +1312,7 @@ export const octoberEvents = [
 		name:    `National Mincemeat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1319,7 +1320,7 @@ export const octoberEvents = [
 		name:    `National Pumpkin Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1327,7 +1328,7 @@ export const octoberEvents = [
 		name:    `National Day Of The Deployed`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 26 
 		}
 	},
@@ -1335,7 +1336,7 @@ export const octoberEvents = [
 		name: `National Civics Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 27 
 		} 
 	},
@@ -1343,7 +1344,7 @@ export const octoberEvents = [
 		name:    `National Black Cat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 27 
 		}
 	},
@@ -1351,21 +1352,21 @@ export const octoberEvents = [
 		name: `National Frankenstein Friday`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name: `National Breadstick Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National American Beer Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 27 
 		}
 	},
@@ -1373,7 +1374,7 @@ export const octoberEvents = [
 		name: `Navy Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 27 
 		} 
 	},
@@ -1381,14 +1382,14 @@ export const octoberEvents = [
 		name: `National Pharmacy Buyer Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National First Responders Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 28 
 		}
 	},
@@ -1396,14 +1397,14 @@ export const octoberEvents = [
 		name: `National Trick Or Treat Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `National Internal Medicine Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 28 
 		}
 	},
@@ -1411,7 +1412,7 @@ export const octoberEvents = [
 		name:    `National Chocolate Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 28 
 		}
 	},
@@ -1419,14 +1420,14 @@ export const octoberEvents = [
 		name:    `National Make A Difference Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		}
 	},
 	{
 		name: `World Stroke Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 29 
 		} 
 	},
@@ -1434,7 +1435,7 @@ export const octoberEvents = [
 		name:    `National Oatmeal Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 29 
 		}
 	},
@@ -1442,7 +1443,7 @@ export const octoberEvents = [
 		name: `National Hermit Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 29 
 		} 
 	},
@@ -1450,7 +1451,7 @@ export const octoberEvents = [
 		name: `National Cat Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 29 
 		} 
 	},
@@ -1458,7 +1459,7 @@ export const octoberEvents = [
 		name: `National Wicked Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 30 
 		} 
 	},
@@ -1466,7 +1467,7 @@ export const octoberEvents = [
 		name:    `World Audio Drama Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 30 
 		}
 	},
@@ -1474,14 +1475,14 @@ export const octoberEvents = [
 		name: `National Publicist Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			month: RepeatMonth.october 
+			month: NATIVE_MONTHS.october 
 		} 
 	},
 	{
 		name:    `Speak Up For Service Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 30 
 		}
 	},
@@ -1489,7 +1490,7 @@ export const octoberEvents = [
 		name:    `National Candy Corn Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 30 
 		}
 	},
@@ -1497,7 +1498,7 @@ export const octoberEvents = [
 		name: `Reformation Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		} 
 	},
@@ -1505,7 +1506,7 @@ export const octoberEvents = [
 		name:    `National Doorbell Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		}
 	},
@@ -1513,7 +1514,7 @@ export const octoberEvents = [
 		name:    `Girl Scout Founder's Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		}
 	},
@@ -1521,7 +1522,7 @@ export const octoberEvents = [
 		name: `National Magic Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		} 
 	},
@@ -1529,7 +1530,7 @@ export const octoberEvents = [
 		name:    `National Knock Knock Joke Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		}
 	},
@@ -1537,7 +1538,7 @@ export const octoberEvents = [
 		name:    `National Caramel Apple Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		}
 	},
@@ -1545,7 +1546,7 @@ export const octoberEvents = [
 		name: `Halloween`,
 		pattern: {
 			type: RepeatPatternType.absolute,
-			month: RepeatMonth.october,
+			month: NATIVE_MONTHS.october,
 			day: 31 
 		} 
 	},
