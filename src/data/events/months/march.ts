@@ -1,6 +1,5 @@
 import {
 	IRepeatData,
-	RelativeOrder,
 	RepeatPatternType
 } from '../../../models/pattern.js';
 import {
@@ -85,7 +84,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.first,
+			order: 1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday 
 		} 
 	},
@@ -139,7 +138,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.march,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
@@ -148,7 +147,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.march,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
@@ -165,7 +164,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.first,
+			order: 1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday 
 		}
 	},
@@ -262,7 +261,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.first,
+			order: 1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday 
 		} 
 	},
@@ -383,7 +382,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.second,
+			order: 2,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday 
 		}
 	},
@@ -416,7 +415,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.second,
+			order: 2,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday 
 		} 
 	},
@@ -545,7 +544,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.second,
+			order: 2,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday 
 		} 
 	},
@@ -562,7 +561,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern:  {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.march,
-			order:     RelativeOrder.second,
+			order:     2,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday
 		},
 		children: [
@@ -693,7 +692,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday 
 		} 
 	},
@@ -734,7 +733,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday 
 		} 
 	},
@@ -743,7 +742,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday 
 		} 
 	},
@@ -768,7 +767,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday 
 		} 
 	},
@@ -859,7 +858,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday 
 		} 
 	},
@@ -967,7 +966,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.third,
+			order: 3,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday 
 		} 
 	},
@@ -1257,7 +1256,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.march,
-			order:     RelativeOrder.fourth,
+			order:     4,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday
 		}
 	},
@@ -1290,7 +1289,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.march,
-			order:     RelativeOrder.last,
+			order:     'last',
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
@@ -1315,7 +1314,7 @@ export const marchEvents: IRepeatData[] = [
 		pattern: {
 			type:  RepeatPatternType.relative,
 			month: NATIVE_MONTHS.march,
-			order: RelativeOrder.last,
+			order: 'last',
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},

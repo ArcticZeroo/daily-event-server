@@ -1,8 +1,5 @@
 import {
-	IRepeatData,
-	RelativeOffsetDirection,
-	RelativeOrder,
-	RepeatPatternType
+	IRepeatData, RelativeOffsetDirection, RepeatPatternType 
 } from '../../../models/pattern.js';
 import {
 	allDaysBetween, NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS 
@@ -31,7 +28,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     RelativeOrder.first
+			order:     1
 		}
 	},
 	{
@@ -48,7 +45,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     RelativeOrder.first
+			order:     1
 		}
 	},
 	{
@@ -97,7 +94,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
-			order:     RelativeOrder.first
+			order:     1
 		}
 	},
 	{
@@ -234,7 +231,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday,
-			order:     RelativeOrder.first
+			order:     1
 		}
 	},
 	{
@@ -420,7 +417,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     RelativeOrder.second
+			order:     2
 		}
 	},
 	{
@@ -710,7 +707,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     RelativeOrder.third
+			order:     3
 		}
 	},
 	{
@@ -727,7 +724,7 @@ export const decemberEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.december,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     RelativeOrder.third
+			order:     3
 		}
 	},
 	{

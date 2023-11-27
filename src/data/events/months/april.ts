@@ -1,5 +1,5 @@
 import {
-	IRepeatData, RelativeOrder, RepeatPatternType 
+	IRepeatData, RepeatPatternType
 } from '../../../models/pattern.js';
 import {
 	NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS 
@@ -12,7 +12,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
@@ -21,7 +21,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
@@ -54,7 +54,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday
 		}
 	},
@@ -99,7 +99,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.monday
 		}
 	},
@@ -172,7 +172,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday
 		}
 	},
@@ -257,7 +257,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
@@ -298,7 +298,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.april,
-			order:     RelativeOrder.first,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
@@ -327,7 +327,7 @@ export const aprilEvents: IRepeatData[] = [
 		pattern: {
 			type:  RepeatPatternType.relative,
 			month: NATIVE_MONTHS.april,
-			order: RelativeOrder.first,
+			order: 1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},

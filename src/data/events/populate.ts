@@ -5,7 +5,7 @@ import {
 	RelativeOffsetDirection,
 	RelativeOrder,
 	RelativeOrderDatesByWeekday,
-	relativeOrderFromOccurrence, RepeatMonth,
+	RepeatMonth,
 	RepeatPattern,
 	RepeatPatternType
 } from '../../models/pattern.js';
@@ -35,11 +35,11 @@ const populateRelativeOrdersForYear = (year: number) => {
 			relativeOrderDatesByWeekday.set(dayOfWeek, new Map());
 		}
 
-		const occurrence = relativeOrderFromOccurrence(Math.ceil(dayOfMonth / 7));
+		const occurrence = Math.ceil(dayOfMonth / 7) as RelativeOrder;
 
 		const relativeOrderDates = relativeOrderDatesByWeekday.get(dayOfWeek)!;
 		relativeOrderDates.set(occurrence, dayOfMonth);
-		relativeOrderDates.set(RelativeOrder.last, dayOfMonth);
+		relativeOrderDates.set('last', dayOfMonth);
 
 		date.setDate(date.getDate() + 1);
 	}

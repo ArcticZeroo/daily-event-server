@@ -1,6 +1,4 @@
-import {
-	RelativeOrder, RepeatPatternType
-} from '../../../models/pattern.js';
+import {RepeatPatternType} from '../../../models/pattern.js';
 import { NATIVE_MONTHS } from '../../../util/date.js';
 
 export const mayEvents = [
@@ -841,7 +839,7 @@ export const mayEvents = [
 		name:      `National Miniature Golf Day`,
 		pattern: {
 			type: RepeatPatternType.relative,
-			order: RelativeOrder.second,
+			order: 2,
 			month: NATIVE_MONTHS.may 
 		}
 	},
@@ -851,7 +849,7 @@ export const mayEvents = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.may,
-			order: RelativeOrder.second 
+			order: 2 
 		}
 	},
 	// { name: `National Birth Mother’s Day`, pattern: { type: RepeatPatternType.relative, month: NATIVE_MONTHS.may } }, // saturday before mother's day
@@ -860,7 +858,7 @@ export const mayEvents = [
 		pattern: {
 			type: RepeatPatternType.relative,
 			month: NATIVE_MONTHS.may,
-			order: RelativeOrder.second 
+			order: 2 
 		} 
 	},
 	{

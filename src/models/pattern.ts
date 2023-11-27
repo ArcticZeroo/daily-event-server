@@ -1,7 +1,6 @@
 import {
 	NativeDayOfWeek, NativeMonth
 } from '../util/date.js';
-import { throwError } from '../util/error.js';
 
 export enum RepeatPatternType {
 	absolute = 'absolute',
@@ -9,22 +8,7 @@ export enum RepeatPatternType {
 	floating = 'floating'
 }
 
-export enum RelativeOrder {
-	first = 'first',
-	second = 'second',
-	third = 'third',
-	fourth = 'fourth',
-	fifth = 'fifth',
-	last = 'last'
-}
-
-export const relativeOrderFromOccurrence = (occurrence: number): RelativeOrder => ({
-																					   1: RelativeOrder.first,
-																					   2: RelativeOrder.second,
-																					   3: RelativeOrder.third,
-																					   4: RelativeOrder.fourth,
-																					   5: RelativeOrder.fifth,
-																				   }[occurrence] ?? throwError(`Invalid occurrence: ${occurrence}`));
+export type RelativeOrder = 1 | 2 | 3 | 4 | 5 | 'last';
 
 export type RepeatMonth = NativeMonth | 'all';
 

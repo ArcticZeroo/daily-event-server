@@ -74,12 +74,7 @@ module.exports = {
 				minProperties: 2
 			}
 		],
-		'@stylistic/object-property-newline': [
-			'error',
-			{
-				allowAllPropertiesOnSameLine: true
-			}
-		],
+		'@stylistic/object-property-newline': 'error',
 		'import/order': [
 			'error',
 			{
