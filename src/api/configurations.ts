@@ -1,5 +1,6 @@
-import { prismaClient } from './prisma.js';
 import { Configuration } from '@prisma/client';
+
+import { prismaClient } from './prisma.js';
 import { IConfigSettings } from '../models/config.js';
 
 export const retrieveConfigurationById = async (id: string): Promise<Configuration | null> => {

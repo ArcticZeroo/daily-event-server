@@ -1,3 +1,4 @@
+import { combinedEvents } from './combined.js';
 import {
 	IOffsetData,
 	IRepeatData,
@@ -14,7 +15,6 @@ import {
 	NATIVE_MONTHS,
 	toOccursOnString
 } from '../../util/date.js';
-import { combinedEvents } from './combined.js';
 
 const populateRelativeOrdersForYear = (year: number) => {
 	const relativeOrdersByMonth = new Map<NativeMonth, RelativeOrderDatesByWeekday>();

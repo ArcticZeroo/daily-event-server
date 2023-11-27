@@ -1,14 +1,16 @@
-import {
-	monthNames, toOccursOnString 
-} from '../../../util/date.js';
+import * as fs from 'node:fs';
+
+import jsdom from 'jsdom';
+import fetch from 'node-fetch';
 import puppeteer from 'puppeteer';
+
 import {
 	EventType, IEvent 
 } from '../../../models/event.js';
+import {
+	monthNames, toOccursOnString 
+} from '../../../util/date.js';
 import { capitalize } from '../../../util/string.js';
-import * as fs from 'node:fs';
-import fetch from 'node-fetch';
-import jsdom from 'jsdom';
 
 const normalizeEventNameForNationalDayCalendar = (name: string) => name.split('\s+').map(capitalize).join(' ');
 

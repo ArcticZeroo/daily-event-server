@@ -1,11 +1,12 @@
 import Router from '@koa/router';
-import { attachRouter } from '../../util/koa.js';
-import { validateConfigSettingsAndSetDefaults } from '../../models/config.js';
+import { Configuration } from '@prisma/client';
+
 import {
 	createConfiguration, retrieveConfigurationById 
 } from '../../api/configurations.js';
-import { Configuration } from '@prisma/client';
 import { executeConfigForToday } from '../../api/events.js';
+import { validateConfigSettingsAndSetDefaults } from '../../models/config.js';
+import { attachRouter } from '../../util/koa.js';
 
 const validateAndGetConfigEntry = async (ctx: Router.RouterContext, requireViewKey: boolean = false): Promise<Configuration> => {
 	const id = ctx.params.id;

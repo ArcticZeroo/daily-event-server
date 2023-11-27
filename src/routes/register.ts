@@ -1,6 +1,7 @@
 import Router from '@koa/router';
-import { registerApiRoutes } from './api/routes.js';
 import Koa from 'koa';
+
+import { registerApiRoutes } from './api/routes.js';
 
 export const registerRoutes = (app: Koa) => {
 	const router = new Router();

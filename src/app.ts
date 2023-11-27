@@ -1,6 +1,7 @@
 import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import json from 'koa-json';
+
 import { registerRoutes } from './routes/register.js';
 
 const app = new Koa();

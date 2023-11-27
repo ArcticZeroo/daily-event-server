@@ -27,7 +27,8 @@ module.exports = {
 	},
 	'plugins': [
 		'@typescript-eslint',
-		'@stylistic'
+		'@stylistic',
+		'import'
 	],
 	'rules': {
 		'indent': [
@@ -53,7 +54,7 @@ module.exports = {
 		'@stylistic/array-bracket-newline': [
 			'error',
 			{
-				multiline: true,
+				multiline: true
 			}
 		],
 		'@stylistic/array-element-newline': [
@@ -77,6 +78,22 @@ module.exports = {
 			'error',
 			{
 				allowAllPropertiesOnSameLine: true
+			}
+		],
+		'import/order': [
+			'error',
+			{
+				groups: [
+					'builtin',
+					'external',
+					['internal', 'parent', 'sibling', 'index', 'type'],
+				],
+				alphabetize: {
+					order: 'asc',
+					caseInsensitive: true
+				},
+				warnOnUnassignedImports: true,
+				'newlines-between': 'always'
 			}
 		]
 	}

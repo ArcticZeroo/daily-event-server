@@ -1,4 +1,5 @@
 import Router from '@koa/router';
+
 import { registerConfigRoutes } from './config.js';
 import { attachRouter } from '../../util/koa.js';
 
