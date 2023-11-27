@@ -1,5 +1,5 @@
 import {
-	NATIVE_DAYS_OF_WEEK, NativeMonth, NATIVE_MONTHS, NativeDayOfWeek
+	NativeDayOfWeek, NativeMonth
 } from '../util/date.js';
 import { throwError } from '../util/error.js';
 
@@ -19,12 +19,12 @@ export enum RelativeOrder {
 }
 
 export const relativeOrderFromOccurrence = (occurrence: number): RelativeOrder => ({
-	                                                                                   1: RelativeOrder.first,
-	                                                                                   2: RelativeOrder.second,
-	                                                                                   3: RelativeOrder.third,
-	                                                                                   4: RelativeOrder.fourth,
-	                                                                                   5: RelativeOrder.fifth,
-}[occurrence] ?? throwError(`Invalid occurrence: ${occurrence}`));
+																					   1: RelativeOrder.first,
+																					   2: RelativeOrder.second,
+																					   3: RelativeOrder.third,
+																					   4: RelativeOrder.fourth,
+																					   5: RelativeOrder.fifth,
+																				   }[occurrence] ?? throwError(`Invalid occurrence: ${occurrence}`));
 
 export type RepeatMonth = NativeMonth | 'all';
 

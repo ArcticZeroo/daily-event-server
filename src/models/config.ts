@@ -1,6 +1,6 @@
 import Ajv, { JSONSchemaType } from 'ajv';
 
-// @ts-ignore - not sure why it's not constructable
+// @ts-expect-error - not sure why it's not constructable
 const ajv = new Ajv({
 	removeAdditional: 'all',
 	useDefaults:      true,

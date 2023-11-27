@@ -12,7 +12,7 @@ import {
 } from '../../../util/date.js';
 import { capitalize } from '../../../util/string.js';
 
-const normalizeEventNameForNationalDayCalendar = (name: string) => name.split('\s+').map(capitalize).join(' ');
+const normalizeEventNameForNationalDayCalendar = (name: string) => name.split(/\s+/).map(capitalize).join(' ');
 
 const nationalDayCalendarProvider = async (date: Date): Promise<Array<IEvent>> => {
 	const month = monthNames[date.getMonth()].toLowerCase();
