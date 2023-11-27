@@ -1,5 +1,5 @@
 import {
-	RelativeOrder, RepeatDayOfWeek, RepeatMonth, RepeatPatternType 
+	RelativeOrder, RepeatMonth, RepeatPatternType
 } from '../../../models/pattern.js';
 
 export const septemberEvents = [

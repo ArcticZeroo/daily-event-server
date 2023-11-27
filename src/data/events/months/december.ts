@@ -2,7 +2,6 @@ import {
 	IRepeatData,
 	RelativeOffsetDirection,
 	RelativeOrder,
-	RepeatDayOfWeek,
 	RepeatMonth,
 	RepeatPatternType
 } from '../../../models/pattern.js';
@@ -32,7 +31,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -49,7 +48,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -98,7 +97,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.saturday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -235,7 +234,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.tuesday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -421,7 +420,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.second
 		}
 	},
@@ -711,7 +710,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
 	},
@@ -728,7 +727,7 @@ export const decemberEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.december,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
 	},
@@ -1035,7 +1034,7 @@ export const decemberEvents: IRepeatData[] = [
 				pattern: {
 					type:      RepeatPatternType.relative,
 					direction: RelativeOffsetDirection.previous,
-					dayOfWeek: RepeatDayOfWeek.thursday
+					dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 				}
 			},
 		]

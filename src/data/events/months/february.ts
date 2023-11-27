@@ -1,10 +1,10 @@
 import {
 	IRepeatData,
 	RelativeOrder,
-	RepeatDayOfWeek,
 	RepeatMonth,
 	RepeatPatternType
 } from '../../../models/pattern.js';
+import { NATIVE_DAYS_OF_WEEK } from '../../../util/date.js';
 
 export const februaryEvents: IRepeatData[] = [
 	{
@@ -64,7 +64,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.thursday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -105,7 +105,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -130,7 +130,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -155,7 +155,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.saturday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.first
 		}
 	},
@@ -301,7 +301,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.thursday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.second
 		}
 	},
@@ -358,7 +358,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.saturday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.second
 		}
 	},
@@ -367,7 +367,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.saturday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.second
 		}
 	},
@@ -424,7 +424,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern:  {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.sunday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday,
 			order:     RelativeOrder.second
 		},
 		children: [
@@ -442,7 +442,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.sunday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday,
 			order:     RelativeOrder.second
 		}
 	}, // (Superbowl)
@@ -483,7 +483,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.monday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.monday,
 			order:     RelativeOrder.second
 		}
 	},
@@ -581,7 +581,7 @@ export const februaryEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
 			order:     RelativeOrder.third,
-			dayOfWeek: RepeatDayOfWeek.friday
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
 	{
@@ -609,7 +609,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.third
 		}
 	},
@@ -658,7 +658,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.saturday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
 			order:     RelativeOrder.third
 		}
 	},
@@ -739,7 +739,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.monday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.monday,
 			order:     RelativeOrder.third
 		}
 	},
@@ -808,7 +808,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.thursday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.last
 		}
 	},
@@ -817,7 +817,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.thursday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday,
 			order:     RelativeOrder.fourth
 		}
 	},
@@ -843,7 +843,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.friday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
 			order:     RelativeOrder.fourth
 		}
 	},
@@ -974,7 +974,7 @@ export const februaryEvents: IRepeatData[] = [
 		pattern: {
 			type:      RepeatPatternType.relative,
 			month:     RepeatMonth.february,
-			dayOfWeek: RepeatDayOfWeek.tuesday,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.tuesday,
 			order:     RelativeOrder.last
 		}
 	},

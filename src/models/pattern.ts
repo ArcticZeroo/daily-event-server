@@ -1,5 +1,5 @@
 import {
-	NativeDayOfWeek, NATIVE_DAYS_OF_WEEK, NativeMonth, NATIVE_MONTHS 
+	NATIVE_DAYS_OF_WEEK, NativeMonth, NATIVE_MONTHS, NativeDayOfWeek
 } from '../util/date.js';
 import { throwError } from '../util/error.js';
 
@@ -90,36 +90,6 @@ export const relativeOrderFromOccurrence = (occurrence: number): RelativeOrder =
 	                                                                                   5: RelativeOrder.fifth,
 }[occurrence] ?? throwError(`Invalid occurrence: ${occurrence}`));
 
-export enum RepeatDayOfWeek {
-	sunday = 'sunday',
-	monday = 'monday',
-	tuesday = 'tuesday',
-	wednesday = 'wednesday',
-	thursday = 'thursday',
-	friday = 'friday',
-	saturday = 'saturday'
-}
-
-export const repeatDayOfWeekFromNativeDayOfWeek = (nativeDayOfWeek: NativeDayOfWeek): RepeatDayOfWeek => ({
-	[NATIVE_DAYS_OF_WEEK.sunday]:    RepeatDayOfWeek.sunday,
-	[NATIVE_DAYS_OF_WEEK.monday]:    RepeatDayOfWeek.monday,
-	[NATIVE_DAYS_OF_WEEK.tuesday]:   RepeatDayOfWeek.tuesday,
-	[NATIVE_DAYS_OF_WEEK.wednesday]: RepeatDayOfWeek.wednesday,
-	[NATIVE_DAYS_OF_WEEK.thursday]:  RepeatDayOfWeek.thursday,
-	[NATIVE_DAYS_OF_WEEK.friday]:    RepeatDayOfWeek.friday,
-	[NATIVE_DAYS_OF_WEEK.saturday]:  RepeatDayOfWeek.saturday
-}[nativeDayOfWeek]);
-
-export const nativeDayOfWeekFromRepeatDayOfWeek = (repeatDayOfWeek: RepeatDayOfWeek): NativeDayOfWeek => ({
-	[RepeatDayOfWeek.sunday]:    NATIVE_DAYS_OF_WEEK.sunday,
-	[RepeatDayOfWeek.monday]:    NATIVE_DAYS_OF_WEEK.monday,
-	[RepeatDayOfWeek.tuesday]:   NATIVE_DAYS_OF_WEEK.tuesday,
-	[RepeatDayOfWeek.wednesday]: NATIVE_DAYS_OF_WEEK.wednesday,
-	[RepeatDayOfWeek.thursday]:  NATIVE_DAYS_OF_WEEK.thursday,
-	[RepeatDayOfWeek.friday]:    NATIVE_DAYS_OF_WEEK.friday,
-	[RepeatDayOfWeek.saturday]:  NATIVE_DAYS_OF_WEEK.saturday
-}[repeatDayOfWeek]);
-
 interface IAbsolutePattern {
 	type: RepeatPatternType.absolute,
 	day: number; // 1-31
@@ -128,7 +98,7 @@ interface IAbsolutePattern {
 
 interface IRelativePattern {
 	type: RepeatPatternType.relative,
-	dayOfWeek: RepeatDayOfWeek;
+	dayOfWeek: NativeDayOfWeek;
 	order: RelativeOrder;
 	month: RepeatMonth;
 }
@@ -153,7 +123,7 @@ export enum RelativeOffsetDirection {
 interface IRelativeOffsetPattern {
 	type: RepeatPatternType.relative;
 	direction: RelativeOffsetDirection;
-	dayOfWeek: RepeatDayOfWeek;
+	dayOfWeek: NativeDayOfWeek;
 }
 
 export type OffsetPattern = IAbsoluteOffsetPattern | IRelativeOffsetPattern;
@@ -170,6 +140,6 @@ export interface IRepeatData {
 	children?: Array<IOffsetData>;
 }
 
-export type RelativeOrderDatesByWeekday = Map<RepeatDayOfWeek, Map<RelativeOrder, number>>;
+export type RelativeOrderDatesByWeekday = Map<NativeDayOfWeek, Map<RelativeOrder, number>>;
 
 export type EventNamesByOccurrenceString = Map<string, Array<string>>;

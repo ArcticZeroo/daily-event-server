@@ -2,20 +2,19 @@ import {
 	ALL_REPEAT_MONTHS,
 	IOffsetData,
 	IRepeatData,
-	nativeDayOfWeekFromRepeatDayOfWeek,
 	nativeMonthFromRepeatMonth,
 	RelativeOffsetDirection,
 	RelativeOrder,
 	RelativeOrderDatesByWeekday,
 	relativeOrderFromOccurrence,
-	repeatDayOfWeekFromNativeDayOfWeek,
 	RepeatMonth,
 	repeatMonthFromNativeMonth,
 	RepeatPattern,
 	RepeatPatternType
 } from '../../models/pattern.js';
 import {
-	NativeDayOfWeek, NativeMonth, toOccursOnString 
+	NativeDayOfWeek,
+	NativeMonth, toOccursOnString
 } from '../../util/date.js';
 import { combinedEvents } from './combined.js';
 
@@ -26,7 +25,7 @@ const populateRelativeOrdersForYear = (year: number) => {
 
 	while (date.getFullYear() === year) {
 		const nativeMonth = date.getMonth() as NativeMonth;
-		const nativeDayOfWeek = date.getDay() as NativeDayOfWeek;
+		const dayOfWeek = date.getDay() as NativeDayOfWeek;
 		const dayOfMonth = date.getDate();
 
 		const month = repeatMonthFromNativeMonth(nativeMonth);
@@ -35,8 +34,6 @@ const populateRelativeOrdersForYear = (year: number) => {
 		}
 
 		const relativeOrderDatesByWeekday = relativeOrdersByMonth.get(month)!;
-
-		const dayOfWeek = repeatDayOfWeekFromNativeDayOfWeek(nativeDayOfWeek);
 		if (!relativeOrderDatesByWeekday.has(dayOfWeek)) {
 			relativeOrderDatesByWeekday.set(dayOfWeek, new Map());
 		}
@@ -119,7 +116,7 @@ const resolveChildEventDateFromOffsetPattern = (baseDate: Date, offsetData: IOff
 	} else if (offsetData.pattern.type === RepeatPatternType.relative) {
 		const date = new Date(baseDate);
 		const direction = offsetData.pattern.direction === RelativeOffsetDirection.next ? 1 : -1;
-		const dayOfWeek = nativeDayOfWeekFromRepeatDayOfWeek(offsetData.pattern.dayOfWeek);
+		const dayOfWeek = offsetData.pattern.dayOfWeek;
 		const dayOfWeekOffset = (dayOfWeek - date.getDay() + 7) % 7;
 		date.setDate(date.getDate() + dayOfWeekOffset + direction * 7);
 		return date;

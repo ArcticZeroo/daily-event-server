@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc && node dist/main.js"
+    "start": "npx tsc && node dist/main.js",
+    "style:fix": "npx eslint --fix src"
   },
   "keywords": [],
   "author": "",

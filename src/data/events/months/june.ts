@@ -1,5 +1,5 @@
 import {
-	RelativeOrder, RepeatDayOfWeek, RepeatMonth, RepeatPatternType 
+	RelativeOrder, NATIVE_DAYS_OF_WEEK, RepeatMonth, RepeatPatternType 
 } from '../../../models/pattern.js';
 
 export const juneEvents = [
