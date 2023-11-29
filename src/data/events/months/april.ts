@@ -5,7 +5,7 @@ import {
 	NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS 
 } from '../../../util/date.js';
 
-export const aprilEvents: IRepeatData[] = [
+export const aprilEvents = [
 	// { name: `National Pickleball Month`, pattern: { type: RepeatPatternType.relative } }, - Clearly not a day?
 	{
 		name:    `National Handmade Day`,
