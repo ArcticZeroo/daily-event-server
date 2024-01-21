@@ -754,6 +754,14 @@ export const januaryEvents: IRepeatData[] = [
 		}
 	},
 	{
+		name:    `National Penguin Awareness Day`,
+		pattern: {
+			type: RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.january,
+			day: 20
+		}
+	},
+	{
 		name:    `National Hyaluronic Acid Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
