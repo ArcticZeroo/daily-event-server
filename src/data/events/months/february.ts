@@ -605,31 +605,6 @@ export const februaryEvents: IRepeatData[] = [
 	// 	pattern: { type: RepeatPatternType.floating }
 	// },
 	{
-		name:    `National Caregivers Day`,
-		pattern: {
-			type:      RepeatPatternType.relative,
-			month:     NATIVE_MONTHS.february,
-			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday,
-			order:     3
-		}
-	},
-	{
-		name:    `National Cabbage Day`,
-		pattern: {
-			type: RepeatPatternType.absolute,
-			month: NATIVE_MONTHS.february,
-			day: 17 
-		}
-	},
-	{
-		name:    `National Random Acts Of Kindness Day`,
-		pattern: {
-			type: RepeatPatternType.absolute,
-			month: NATIVE_MONTHS.february,
-			day: 17 
-		}
-	},
-	{
 		name:    `National Battery Day`,
 		pattern: {
 			type: RepeatPatternType.absolute,
@@ -659,6 +634,15 @@ export const februaryEvents: IRepeatData[] = [
 			type:      RepeatPatternType.relative,
 			month:     NATIVE_MONTHS.february,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday,
+			order:     3
+		}
+	},
+	{
+		name:    `World Whale Day`,
+		pattern: {
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.february,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday,
 			order:     3
 		}
 	},

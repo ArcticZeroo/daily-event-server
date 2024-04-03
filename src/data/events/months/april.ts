@@ -2,10 +2,10 @@ import {
 	IRepeatData, RepeatPatternType
 } from '../../../models/pattern.js';
 import {
-	NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS 
+	NATIVE_DAYS_OF_WEEK, NATIVE_MONTHS
 } from '../../../util/date.js';
 
-export const aprilEvents = [
+export const aprilEvents: IRepeatData[] = [
 	// { name: `National Pickleball Month`, pattern: { type: RepeatPatternType.relative } }, - Clearly not a day?
 	{
 		name:    `National Handmade Day`,
@@ -325,9 +325,9 @@ export const aprilEvents = [
 	{
 		name:    `National Burrito Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april,
-			order: 1,
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     1,
 			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},
@@ -342,8 +342,10 @@ export const aprilEvents = [
 	{
 		name:    `National Alcohol Screening Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     1,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},
 	{
@@ -355,10 +357,11 @@ export const aprilEvents = [
 		}
 	},
 	{
-		name:    `National Student`,
+		name:    `National Student-Athlete Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   6
 		}
 	},
 	{
@@ -377,13 +380,13 @@ export const aprilEvents = [
 			day:   6
 		}
 	},
-	{
-		name:    `Good Friday`,
-		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
-		}
-	},
+	/*{
+        name:    `Good Friday`,
+        pattern: {
+            type:  RepeatPatternType.relative,
+            month: NATIVE_MONTHS.april
+        }
+    },*/ // todo
 	{
 		name:    `National Girl Me Too Day`,
 		pattern: {
@@ -456,13 +459,13 @@ export const aprilEvents = [
 			day:   9
 		}
 	},
-	{
-		name:    `Easter`,
-		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
-		}
-	},
+	/*{
+        name:    `Easter`,
+        pattern: {
+            type:  RepeatPatternType.relative,
+            month: NATIVE_MONTHS.april
+        }
+    },*/ // todo
 	{
 		name:    `National Former Prisoner Of War Recognition Day`,
 		pattern: {
@@ -687,13 +690,13 @@ export const aprilEvents = [
 			day:   14
 		}
 	},
-	{
-		name:    `National Donate Life Blue & Green Day`,
-		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
-		}
-	},
+	/*{
+        name:    `National Donate Life Blue & Green Day`,
+        pattern: {
+            type:  RepeatPatternType.floating,
+            month: NATIVE_MONTHS.april
+        }
+    },*/ // changes annually
 	{
 		name:    `National Dolphin Day`,
 		pattern: {
@@ -710,13 +713,13 @@ export const aprilEvents = [
 			day:   14
 		}
 	},
-	{
-		name:    `National Day Of Silence`,
-		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
-		}
-	},
+	/*{
+        name:    `National Day Of Silence`,
+        pattern: {
+            type:  RepeatPatternType.relative,
+            month: NATIVE_MONTHS.april
+        }
+    },*/ // todo
 	{
 		name:    `National Pecan Day`,
 		pattern: {
@@ -726,10 +729,11 @@ export const aprilEvents = [
 		}
 	},
 	{
-		name:    `National Ex`,
+		name:    `National Ex-Spouse Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   14
 		}
 	},
 	{
@@ -767,8 +771,10 @@ export const aprilEvents = [
 	{
 		name:    `National Auctioneers Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     1,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
@@ -926,8 +932,10 @@ export const aprilEvents = [
 	{
 		name:    `National Banana Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     3,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
 	{
@@ -978,13 +986,16 @@ export const aprilEvents = [
 			day:   20
 		}
 	},
-	{
+	/*{
+		// third thursday of EACH QUARTER
 		name:    `Get To Know Your Customers Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			// order:     3,
+			// dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
-	},
+	},*/ // todo
 	{
 		name:    `Volunteer Recognition Day`,
 		pattern: {
@@ -1002,10 +1013,11 @@ export const aprilEvents = [
 		}
 	},
 	{
-		name:    `National Pineapple Upside`,
+		name:    `National Pineapple Upside-Down Cake`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   20
 		}
 	},
 	{
@@ -1027,8 +1039,10 @@ export const aprilEvents = [
 	{
 		name:    `National High Five Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     3,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},
 	{
@@ -1042,8 +1056,10 @@ export const aprilEvents = [
 	{
 		name:    `National Clean Out Your Medicine Cabinet Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     3,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
 	{
@@ -1055,10 +1071,11 @@ export const aprilEvents = [
 		}
 	},
 	{
-		name:    `National Chocolate`,
+		name:    `National Chocolate-Covered Cashews Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   21
 		}
 	},
 	{
@@ -1072,17 +1089,19 @@ export const aprilEvents = [
 	{
 		name:    `Celebrate Trails Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     4,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
-	{
+	/*{
 		name:    `National Record Store Day`,
 		pattern: {
 			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			month: NATIVE_MONTHS.april,
 		}
-	},
+	},*/ // todo
 	{
 		name:    `National Jelly Bean Day`,
 		pattern: {
@@ -1156,10 +1175,19 @@ export const aprilEvents = [
 		}
 	},
 	{
-		name:    `National Pigs`,
+		name:    `National Pigs-in-a-Blanket Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   24
+		}
+	},
+	{
+		name:    `World Penguin Day`,
+		pattern: {
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   25
 		}
 	},
 	{
@@ -1202,25 +1230,29 @@ export const aprilEvents = [
 			day:   25
 		}
 	},
-	{
+	/*{
 		name:    `National Library Workers Day`,
 		pattern: {
 			type:  RepeatPatternType.relative,
 			month: NATIVE_MONTHS.april
 		}
-	},
+	},*/ // todo - tuesday of National Library Week, which appears to float?
 	{
 		name:    `Stop Food Waste Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
 	{
 		name:    `Denim Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.wednesday
 		}
 	},
 	{
@@ -1247,13 +1279,13 @@ export const aprilEvents = [
 			day:   26
 		}
 	},
-	{
+	/*{
 		name:    `National Library Outreach Day`,
 		pattern: {
 			type:  RepeatPatternType.relative,
 			month: NATIVE_MONTHS.april
 		}
-	},
+	},*/ // todo
 	{
 		name:    `National Pretzel Day`,
 		pattern: {
@@ -1286,13 +1318,13 @@ export const aprilEvents = [
 			day:   26
 		}
 	},
-	{
+	/*{
 		name:    `National Administrative Professionals Day`,
 		pattern: {
 			type:  RepeatPatternType.relative,
 			month: NATIVE_MONTHS.april
 		}
-	},
+	},*/ // todo - wednesday of the last full week.... how to figure out?
 	{
 		name:    `National Gummi Bear Day`,
 		pattern: {
@@ -1312,8 +1344,10 @@ export const aprilEvents = [
 	{
 		name:    `National Teach Children To Save Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     4,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},
 	{
@@ -1343,22 +1377,27 @@ export const aprilEvents = [
 	{
 		name:    `National Take Our Daughters And Sons To Work Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     4,
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.thursday
 		}
 	},
 	{
 		name:    `National Poem In Your Pocket Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:  RepeatPatternType.absolute,
+			month: NATIVE_MONTHS.april,
+			day:   18
 		}
 	},
 	{
 		name:    `National Historic Marker Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
 	{
@@ -1388,8 +1427,10 @@ export const aprilEvents = [
 	{
 		name:    `National Hairball Awareness Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
 	{
@@ -1411,22 +1452,28 @@ export const aprilEvents = [
 	{
 		name:    `National Arbor Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.friday
 		}
 	},
 	{
 		name:    `World Veterinary Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
 		name:    `National First Ladies Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
@@ -1440,36 +1487,46 @@ export const aprilEvents = [
 	{
 		name:    `Independent Bookstore Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
 		name:    `National Pool Opening Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
 		name:    `National Kiss Of Hope Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
 		name:    `National Sense Of Smell Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
 		name:    `National Rebuilding Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.saturday
 		}
 	},
 	{
@@ -1531,8 +1588,10 @@ export const aprilEvents = [
 	{
 		name:    `National Pet Parents Day`,
 		pattern: {
-			type:  RepeatPatternType.relative,
-			month: NATIVE_MONTHS.april
+			type:      RepeatPatternType.relative,
+			month:     NATIVE_MONTHS.april,
+			order:     'last',
+			dayOfWeek: NATIVE_DAYS_OF_WEEK.sunday
 		}
 	},
 	{

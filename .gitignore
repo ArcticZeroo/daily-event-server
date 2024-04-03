@@ -3,3 +3,5 @@ node_modules
 prisma/.env
 dist
 **/*.db
+.env
+content.html
